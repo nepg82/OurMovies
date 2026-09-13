@@ -1,0 +1,15 @@
+{
+  "name": "OurMovies",
+  "short_name": "OurMovies",
+  "description": "Our home movie collection — VHS, DVD, and Blu-ray, all in one place.",
+  "start_url": "index.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#12141C",
+  "theme_color": "#12141C",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "app-icon/app-icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "app-icon/app-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

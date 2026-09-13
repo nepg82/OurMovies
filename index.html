@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OurMovies</title>
+<meta name="theme-color" content="#12141C">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="app-icon/app-icon-192.png">
+<link rel="apple-touch-icon" href="app-icon/app-icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <h1>Our<span class="dot">Movies</span></h1>
+  <div class="mode-tabs">
+    <button id="tabMovies" class="active" onclick="setMode('movies')">Movies</button>
+    <button id="tabPeople" onclick="setMode('people')">People</button>
+  </div>
+  <div class="filter-row">
+    <select id="filterMedia" onchange="render()"></select>
+    <select id="filterGenre" onchange="render()"></select>
+    <a href="admin.html" class="btn secondary filter-admin-link">Admin</a>
+  </div>
+  <div class="search-row">
+    <input type="text" id="searchInput" placeholder="Search titles..." autocomplete="off">
+  </div>
+  <div class="count-pill" id="countPill"></div>
+</div>
+
+<div id="wall" class="wall"></div>
+<div id="alphaRail" class="alpha-rail"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
