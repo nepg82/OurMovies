@@ -7,6 +7,26 @@ const NO_POSTER_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 
 const CONCURRENCY = 8;
 const MAX_RETRIES = 3;
 
+// Writing-department credits, ranked so the "main" writer(s) surface first.
+// Anything not in this list (Consultant, Dialogue, etc.) sorts after all of these.
+const WRITER_JOB_PRIORITY = ['Screenplay', 'Writer', 'Story', 'Teleplay', 'Novel'];
+const WRITER_LIMIT = 4;
+
+function writerJobRank(job) {
+  const idx = WRITER_JOB_PRIORITY.indexOf(job);
+  return idx === -1 ? WRITER_JOB_PRIORITY.length : idx;
+}
+
+// Takes a TMDB credits.crew array, returns up to WRITER_LIMIT { job, name }
+// entries from the Writing department, ordered by job priority, then by
+// TMDB's own crew order within a tied job.
+function extractWriters(crew) {
+  const writingCrew = (crew || []).filter(c => c.department === 'Writing');
+  const indexed = writingCrew.map((c, i) => ({ job: c.job, name: c.name, _i: i }));
+  indexed.sort((a, b) => writerJobRank(a.job) - writerJobRank(b.job) || a._i - b._i);
+  return indexed.slice(0, WRITER_LIMIT).map(c => ({ job: c.job, name: c.name }));
+}
+
 let importResults = null; // { movies: [...], zipBlob: Blob }
 let importRunning = false;
 
@@ -73,7 +93,9 @@ async function processRow(row, tmdbKey) {
   const needsActors = csvActors.length === 0;
   const needsGenre = !csvGenre;
   const needsYear = !year;
-  const needsTextBackfill = needsDirector || needsActors || needsGenre || needsYear;
+  // Writers have no CSV column — they only ever come from TMDB, so a details
+  // call is needed whenever there's a match, regardless of what the CSV had.
+  const needsTextBackfill = true;
 
   let tmdbBasic = null; // result from /find or /search — has poster_path, id
   let matchMethod = null;
@@ -107,7 +129,7 @@ async function processRow(row, tmdbKey) {
 
   // Only spend a second call on the rows that actually need backfilling —
   // everything else keeps the CSV's own director/actors/genre/year untouched.
-  let finalDirector = csvDirector, finalActors = csvActors, finalGenre = csvGenre, finalYear = year;
+  let finalDirector = csvDirector, finalActors = csvActors, finalGenre = csvGenre, finalYear = year, finalWriters = [];
   if (tmdbBasic && needsTextBackfill) {
     const det = await fetchJsonWithRetry(
       `https://api.themoviedb.org/3/movie/${tmdbBasic.id}?api_key=${tmdbKey}&append_to_response=credits`
@@ -129,6 +151,10 @@ async function processRow(row, tmdbKey) {
       if (needsYear && det.release_date) {
         finalYear = det.release_date.slice(0, 4);
         filled.push('year');
+      }
+      if (det.credits && det.credits.crew) {
+        finalWriters = extractWriters(det.credits.crew);
+        if (finalWriters.length) filled.push('writers');
       }
       if (filled.length) reviewReasons.push(`backfilled from TMDB: ${filled.join(', ')} — verify`);
     }
@@ -161,6 +187,7 @@ async function processRow(row, tmdbKey) {
       director: finalDirector,
       year: finalYear,
       actors: finalActors,
+      writers: finalWriters,
       genre: finalGenre,
       medium,
       cover: coverFile,

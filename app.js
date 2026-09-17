@@ -19,7 +19,8 @@ function letterOf(sortTitle) {
 function buildPeopleIndex() {
   PEOPLE_INDEX = new Map();
   for (const m of MOVIES) {
-    const people = new Set([m.director, ...(m.actors || [])].filter(Boolean));
+    const writerNames = (m.writers || []).map(w => w.name);
+    const people = new Set([m.director, ...writerNames, ...(m.actors || [])].filter(Boolean));
     for (const name of people) {
       if (!PEOPLE_INDEX.has(name)) PEOPLE_INDEX.set(name, []);
       PEOPLE_INDEX.get(name).push(m);
@@ -114,7 +115,11 @@ function cardHtml(m) {
 function showDetail(id) {
   const m = MOVIES.find(x => x.id === id);
   if (!m) return;
-  alert(`${m.title} (${m.year})\n\nDirector: ${m.director}\nGenre: ${m.genre}\nMedium: ${m.medium}\n\nCast: ${(m.actors || []).join(', ')}`);
+  const lines = [`Director: ${m.director}`, `Genre: ${m.genre}`, `Medium: ${m.medium}`];
+  for (const w of (m.writers || [])) {
+    lines.push(`${w.job}: ${w.name}`);
+  }
+  alert(`${m.title} (${m.year})\n\n${lines.join('\n')}\n\nCast: ${(m.actors || []).join(', ')}`);
 }
 
 function renderPeople(query) {

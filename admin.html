@@ -81,7 +81,7 @@
     <div class="field">
       <label for="importFile">Cleaned CSV file</label>
       <input type="file" id="importFile" accept=".csv">
-      <div class="field-hint">Expects columns: Title, Director, Year, Actors, Genre, Medium, IMDbID, NeedsReview. Your existing Title, Director, Year, Actors, and Genre are kept as-is — TMDB is only called to fetch cover art, and to fill in any of those fields that were already blank in the CSV.</div>
+      <div class="field-hint">Expects columns: Title, Director, Year, Actors, Genre, Medium, IMDbID, NeedsReview. Your existing Title, Director, Year, Actors, and Genre are kept as-is — TMDB is only called to fetch cover art, to fill in any of those fields that were already blank in the CSV, and to look up writing credits (there's no CSV column for those — they always come from TMDB).</div>
     </div>
     <button class="btn" id="importStartBtn" onclick="startImport()">Start import</button>
     <button class="btn secondary" id="importDownloadBtn" style="display:none;" onclick="downloadImportZip()">Download result (.zip)</button>
@@ -90,6 +90,18 @@
       <div class="progress-text" id="progressText"></div>
     </div>
     <div class="debug-log" id="importLog" style="display:none;">Ready.</div>
+  </div>
+
+  <div class="section-title">Backfill writer credits</div>
+  <div class="import-panel">
+    <div class="field-hint" style="margin-bottom:12px;">One-time cleanup for movies you imported before the writer field existed. Scans your current data.json, looks up writing credits on TMDB for anything missing them (up to 4, ranked Screenplay &gt; Writer &gt; Story &gt; Teleplay &gt; Novel), and leaves everything else untouched — cover art, director, cast, all of it stay exactly as they are. Uses the TMDB key above.</div>
+    <button class="btn" id="migrateStartBtn" onclick="startMigration()">Scan collection</button>
+    <button class="btn secondary" id="migrateDownloadBtn" style="display:none;" onclick="downloadMigratedData()">Download updated data.json</button>
+    <div class="import-progress" id="migrateProgress" style="display:none;">
+      <div class="progress-bar-track"><div class="progress-bar-fill" id="migrateProgressFill"></div></div>
+      <div class="progress-text" id="migrateProgressText"></div>
+    </div>
+    <div class="debug-log" id="migrateLog" style="display:none;">Ready.</div>
   </div>
 
   <div class="section-title">Add a movie</div>
@@ -107,5 +119,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script src="admin.js"></script>
 <script src="import.js"></script>
+<script src="migrate.js"></script>
 </body>
 </html>
