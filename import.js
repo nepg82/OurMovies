@@ -4,28 +4,8 @@ const NO_POSTER_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 
   <text x="100" y="150" text-anchor="middle" font-family="Work Sans, sans-serif" font-size="12" fill="#8B8D9B">No cover found</text>
 </svg>`;
 
+// Helpers (sortTitleOf, slugify, extractWriters, fetchJsonWithRetry) live in shared.js.
 const CONCURRENCY = 8;
-const MAX_RETRIES = 3;
-
-// Writing-department credits, ranked so the "main" writer(s) surface first.
-// Anything not in this list (Consultant, Dialogue, etc.) sorts after all of these.
-const WRITER_JOB_PRIORITY = ['Screenplay', 'Writer', 'Story', 'Teleplay', 'Novel'];
-const WRITER_LIMIT = 4;
-
-function writerJobRank(job) {
-  const idx = WRITER_JOB_PRIORITY.indexOf(job);
-  return idx === -1 ? WRITER_JOB_PRIORITY.length : idx;
-}
-
-// Takes a TMDB credits.crew array, returns up to WRITER_LIMIT { job, name }
-// entries from the Writing department, ordered by job priority, then by
-// TMDB's own crew order within a tied job.
-function extractWriters(crew) {
-  const writingCrew = (crew || []).filter(c => c.department === 'Writing');
-  const indexed = writingCrew.map((c, i) => ({ job: c.job, name: c.name, _i: i }));
-  indexed.sort((a, b) => writerJobRank(a.job) - writerJobRank(b.job) || a._i - b._i);
-  return indexed.slice(0, WRITER_LIMIT).map(c => ({ job: c.job, name: c.name }));
-}
 
 let importResults = null; // { movies: [...], zipBlob: Blob }
 let importRunning = false;
@@ -43,40 +23,6 @@ function setProgress(done, total, extra) {
   document.getElementById('importProgress').style.display = 'block';
   document.getElementById('progressFill').style.width = pct + '%';
   document.getElementById('progressText').textContent = `${done} / ${total} processed${extra ? ' — ' + extra : ''}`;
-}
-
-const ARTICLES = ['the ', 'a ', 'an '];
-function sortTitleOf(t) {
-  const low = t.toLowerCase();
-  for (const a of ARTICLES) {
-    if (low.startsWith(a)) return t.slice(a.length);
-  }
-  return t;
-}
-
-function slugify(s) {
-  return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-}
-
-async function fetchJsonWithRetry(url) {
-  let attempt = 0;
-  while (true) {
-    const res = await fetch(url);
-    if (res.status === 401) {
-      const err = new Error('TMDB rejected the API key (401 Unauthorized).');
-      err.isAuthError = true;
-      throw err;
-    }
-    if (res.status === 429 && attempt < MAX_RETRIES) {
-      attempt++;
-      await new Promise(r => setTimeout(r, 800 * attempt));
-      continue;
-    }
-    if (!res.ok) {
-      return null;
-    }
-    return res.json();
-  }
 }
 
 async function processRow(row, tmdbKey) {

@@ -525,3 +525,110 @@ summary .label-row {
   padding: 12px 14px;
   line-height: 1.5;
 }
+
+/* --- Detail sheet --- */
+
+body.sheet-open { overflow: hidden; }
+
+.sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(8, 9, 14, 0.72);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.sheet {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  max-height: 88vh;
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-bottom: none;
+  border-radius: 12px 12px 0 0;
+  padding: 20px 18px calc(24px + env(safe-area-inset-bottom, 0px));
+}
+
+@media (min-width: 640px) {
+  .sheet-backdrop { align-items: center; }
+  .sheet { border-bottom: 1px solid var(--border); border-radius: 8px; }
+}
+
+.sheet-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.6rem;
+  line-height: 1;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.sheet-close:hover, .sheet-close:focus-visible { color: var(--accent); outline: none; }
+
+.sheet-head {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  padding-right: 28px;
+}
+
+.sheet-head img {
+  width: 92px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface-raised);
+  flex-shrink: 0;
+}
+
+.sheet-head h2 {
+  margin: 0 0 4px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.sheet-year { color: var(--text-muted); font-size: 0.9rem; }
+
+.sheet-rows { margin: 0; }
+
+.sheet-row {
+  display: flex;
+  gap: 12px;
+  padding: 8px 0;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.sheet-row dt { width: 96px; flex-shrink: 0; color: var(--text-muted); }
+.sheet-row dd { margin: 0; }
+
+.sheet-cast {
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.sheet-cast-label { color: var(--text-muted); margin-bottom: 4px; }
+
+.sheet-review {
+  margin-top: 14px;
+  padding: 10px 12px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
