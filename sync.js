@@ -115,6 +115,20 @@ async function queueOp(op, cover) {
   syncChanged(false);
 }
 
+// Deleting a record that was only added locally just cancels the add
+// (and its cover) instead of queueing a delete for something Git never had.
+async function queueDelete(uid) {
+  const ops = await dbAll('ops');
+  const add = ops.find(o => o.type === 'add' && o.movie.uid === uid);
+  if (!add) return queueOp({ type: 'delete', uid });
+  for (const o of ops) {
+    if ((o.type === 'add' && o.movie.uid === uid) || (o.type === 'edit' && o.uid === uid)) await dbDelete('ops', o.seq);
+  }
+  if (add.coverPath && !ops.some(o => o !== add && o.coverPath === add.coverPath)) await dbDelete('covers', add.coverPath);
+  await loadPendingCovers();
+  syncChanged(false);
+}
+
 async function getPendingCount() {
   return (await dbAll('ops')).length;
 }

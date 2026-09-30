@@ -663,3 +663,25 @@ body.sheet-open { overflow: hidden; }
 .sheet-error { margin: 0 0 10px; font-size: 0.82rem; color: #d97862; }
 .sheet-error:empty { display: none; }
 .sheet-actions { display: flex; gap: 8px; }
+
+/* --- Edit form & sheet actions --- */
+
+.sheet .sheet-actions { margin-top: 16px; flex-wrap: wrap; align-items: center; }
+.sheet .sheet-actions.confirming .sheet-text { flex-basis: 100%; margin: 0 0 4px; }
+
+.field textarea {
+  width: 100%;
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 9px 10px;
+  border-radius: var(--radius);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  resize: vertical;
+  outline: none;
+}
+
+.field textarea:focus { border-color: var(--accent); }
+.sheet .field input, .sheet .field textarea { font-size: 16px; } /* stops iOS zoom on focus */

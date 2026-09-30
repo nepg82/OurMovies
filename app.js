@@ -176,14 +176,118 @@ function showDetail(uid) {
       <dl class="sheet-rows">${rowsHtml}</dl>
       ${cast}
       ${review}
+      ${ghReady() ? `<div class="sheet-actions" id="sheetActions">
+        <button class="btn" data-act="edit">Edit</button>
+        <button class="btn danger" data-act="delete">Delete</button>
+      </div>` : ''}
     </div>`;
 
   el.addEventListener('click', (e) => {
-    if (e.target === el || e.target.closest('.sheet-close')) closeDetail();
+    if (e.target === el || e.target.closest('.sheet-close')) return closeDetail();
+    const act = e.target.closest('[data-act]');
+    if (!act) return;
+    if (act.dataset.act === 'edit') showEditForm(m);
+    else if (act.dataset.act === 'delete') showDeleteConfirm(m);
+    else if (act.dataset.act === 'cancel-delete') showDetail(m.uid);
+    else if (act.dataset.act === 'confirm-delete') confirmDelete(m);
   });
   document.body.appendChild(el);
   document.body.classList.add('sheet-open');
   el.querySelector('.sheet-close').focus();
+}
+
+/* --- Edit / delete (shown only when a GitHub token is saved) --- */
+
+function showDeleteConfirm(m) {
+  const box = document.getElementById('sheetActions');
+  box.classList.add('confirming');
+  box.innerHTML = `
+    <div class="sheet-text">Delete <strong>${escapeHtml(m.title)}</strong> (${escapeHtml(m.medium)}, ${escapeHtml(m.year)})?
+      Its cover file is removed on the next push unless another record still uses it.</div>
+    <button class="btn danger" data-act="confirm-delete">Delete</button>
+    <button class="btn secondary" data-act="cancel-delete">Keep</button>`;
+}
+
+async function confirmDelete(m) {
+  await queueDelete(m.uid);
+  closeDetail();
+}
+
+function parseWriters(text) {
+  return text.split('\n').map(l => l.trim()).filter(Boolean).map(l => {
+    const i = l.indexOf(':');
+    return i === -1 ? { job: 'Writer', name: l } : { job: l.slice(0, i).trim() || 'Writer', name: l.slice(i + 1).trim() };
+  }).filter(w => w.name);
+}
+
+function showEditForm(m) {
+  const sheet = document.querySelector('#detailSheet .sheet');
+  const distinct = (key) => [...new Set(MOVIES.map(x => x[key]).filter(Boolean))].sort();
+  const opts = (arr) => arr.map(v => `<option value="${escapeHtml(v)}"></option>`).join('');
+  const field = (id, label, val, extra = '') =>
+    `<div class="field"><label for="${id}">${label}</label><input type="text" id="${id}" value="${escapeHtml(val)}" ${extra}></div>`;
+
+  sheet.innerHTML = `
+    <button class="sheet-close" aria-label="Close">&times;</button>
+    <h2 class="sheet-title">Edit</h2>
+    ${field('eTitle', 'Title', m.title || '')}
+    <div class="field">
+      <label for="eCustom">Custom sort</label>
+      <input type="text" id="eCustom" value="${escapeHtml(m.customSort || '')}" placeholder="e.g. Has Fallen 1" autocomplete="off">
+      <div class="field-hint" id="eCustomHint"></div>
+    </div>
+    ${field('eYear', 'Year', m.year || '', 'inputmode="numeric"')}
+    ${field('eDirector', 'Director', m.director || '')}
+    ${field('eGenre', 'Genre', m.genre || '', 'list="dlGenre"')}
+    ${field('eMedium', 'Medium', m.medium || '', 'list="dlMedium"')}
+    <datalist id="dlGenre">${opts(distinct('genre'))}</datalist>
+    <datalist id="dlMedium">${opts(distinct('medium'))}</datalist>
+    <div class="field"><label for="eActors">Cast (comma separated)</label>
+      <textarea id="eActors" rows="3">${escapeHtml((m.actors || []).join(', '))}</textarea></div>
+    <div class="field"><label for="eWriters">Writers (one per line, Job: Name)</label>
+      <textarea id="eWriters" rows="3">${escapeHtml((m.writers || []).map(w => `${w.job}: ${w.name}`).join('\n'))}</textarea></div>
+    <div class="sheet-error" id="eError"></div>
+    <div class="sheet-actions">
+      <button class="btn" id="eSave">Save</button>
+      <button class="btn secondary" id="eCancel">Cancel</button>
+    </div>`;
+
+  const $ = (id) => sheet.querySelector('#' + id);
+  const hint = () => {
+    const custom = $('eCustom').value.trim();
+    const title = $('eTitle').value.trim();
+    const key = custom || (title === m.title ? (m.sortTitle || title) : sortTitleOf(title));
+    $('eCustomHint').textContent = `Files under ${letterOf(key)}. Blank sorts by title; numbers sort naturally (2 before 10).`;
+  };
+  hint();
+  $('eCustom').addEventListener('input', hint);
+  $('eTitle').addEventListener('input', hint);
+  $('eCancel').onclick = () => showDetail(m.uid);
+  sheet.querySelector('.sheet-close').onclick = closeDetail;
+  $('eTitle').focus();
+
+  $('eSave').onclick = async () => {
+    const next = {
+      title: $('eTitle').value.trim(),
+      customSort: $('eCustom').value.trim(),
+      year: $('eYear').value.trim(),
+      director: $('eDirector').value.trim(),
+      genre: $('eGenre').value.trim(),
+      medium: $('eMedium').value.trim(),
+      actors: $('eActors').value.split(',').map(s => s.trim()).filter(Boolean),
+      writers: parseWriters($('eWriters').value),
+    };
+    if (!next.title) { $('eError').textContent = 'Title can\u2019t be blank.'; return; }
+    if (!next.medium) { $('eError').textContent = 'Medium can\u2019t be blank.'; return; }
+    const changes = {};
+    for (const k of Object.keys(next)) {
+      const cur = m[k] == null ? (Array.isArray(next[k]) ? [] : '') : m[k];
+      if (JSON.stringify(cur) !== JSON.stringify(next[k])) changes[k] = next[k];
+    }
+    if (!Object.keys(changes).length) return closeDetail();
+    await queueOp({ type: 'edit', uid: m.uid, changes });
+    closeDetail();
+  };
 }
 
 function closeDetail() {
