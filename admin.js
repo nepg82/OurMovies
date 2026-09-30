@@ -35,6 +35,7 @@ function saveGithub() {
   const ok = !!localStorage.getItem(FIELDS.ghToken) && !!localStorage.getItem(FIELDS.ghOwner) && !!localStorage.getItem(FIELDS.ghRepo);
   updateDot('dotGithub', ok);
   flashMsg('msgGithub');
+  if (typeof updatePushPanel === 'function') updatePushPanel();
 }
 
 function flashMsg(id) {
@@ -54,6 +55,11 @@ async function refreshFromGit() {
   document.getElementById('debugLog').textContent = '';
   log('Starting refresh...');
   try {
+    const pending = await getPendingCount();
+    if (pending && !confirm(`You have ${pending} unpushed change${pending === 1 ? '' : 's'}. They are kept through a refresh, but pushing first is safer. Refresh anyway?`)) {
+      log('Cancelled.');
+      return;
+    }
     if ('serviceWorker' in navigator) {
       const regs = await navigator.serviceWorker.getRegistrations();
       for (const r of regs) {
@@ -82,4 +88,48 @@ async function refreshFromGit() {
   }
 }
 
+/* --- Push panel --- */
+
+function pushLog(msg) {
+  const el = document.getElementById('pushLog');
+  el.style.display = 'block';
+  el.textContent += (el.textContent ? '\n' : '') + `[${new Date().toLocaleTimeString()}] ${msg}`;
+  el.scrollTop = el.scrollHeight;
+}
+
+async function updatePushPanel() {
+  const n = await getPendingCount();
+  const ready = ghReady();
+  document.getElementById('pushBtn').disabled = !n || !ready || syncPushing;
+  document.getElementById('discardBtn').style.display = n ? 'inline-block' : 'none';
+  const parts = [`Loaded data: ${SYNC.baseStamp || 'no stamp yet'}`, n ? `${n} unpushed change${n === 1 ? '' : 's'}` : 'nothing to push'];
+  if (!ready) parts.push('save your GitHub settings below to enable pushing');
+  document.getElementById('pushStatus').textContent = parts.join(' \u00b7 ');
+}
+
+async function doPush() {
+  document.getElementById('pushLog').textContent = '';
+  document.getElementById('pushBtn').disabled = true;
+  try {
+    await pushChanges(pushLog);
+  } catch (err) {
+    pushLog('Failed: ' + err.message);
+  }
+  await updatePushPanel();
+}
+
+async function doDiscard() {
+  const n = await getPendingCount();
+  if (!confirm(`Discard ${n} unpushed change${n === 1 ? '' : 's'}? This cannot be undone.`)) return;
+  await discardChanges();
+  pushLog('Discarded unpushed changes.');
+  await updatePushPanel();
+}
+
+document.addEventListener('syncchange', async (e) => {
+  if (e.detail && e.detail.reload) await syncInit();
+  updatePushPanel();
+});
+
 loadSaved();
+syncInit().then(updatePushPanel).catch(err => { document.getElementById('pushStatus').textContent = 'Could not load data: ' + err.message; });

@@ -1,6 +1,7 @@
-// Depends on shared.js (effectiveSort, compareMovies, letterOf, assignUids, escapeHtml).
+// Depends on shared.js and sync.js.
 
-let MOVIES = [];
+let BASE = [];   // data as loaded (site copy, or newer Git copy)
+let MOVIES = []; // BASE with pending changes applied
 let PEOPLE_INDEX = new Map(); // name -> [movie, ...]
 let mode = 'movies';
 
@@ -26,27 +27,44 @@ function buildPeopleIndex() {
 }
 
 async function loadData() {
-  const res = await fetch('data.json');
-  MOVIES = await res.json();
-  assignUids(MOVIES);
+  const { movies } = await syncInit();
+  BASE = movies;
+  await rebuild();
+  checkGitOnStartup(); // runs in the background; may offer newer data
+}
+
+async function rebuild() {
+  MOVIES = applyOps(BASE, await dbAll('ops'));
   buildPeopleIndex();
   renderAlphaRail();
   populateFilters();
   render();
+  renderSyncIndicator();
 }
+
+document.addEventListener('syncchange', async (e) => {
+  if (e.detail && e.detail.reload) BASE = (await syncInit()).movies;
+  rebuild();
+});
 
 function populateFilters() {
   const mediums = [...new Set(MOVIES.map(m => m.medium).filter(Boolean))].sort();
   const genres = [...new Set(MOVIES.map(m => m.genre).filter(Boolean))].sort();
+  const curMedia = filterMedia.value, curGenre = filterGenre.value;
 
   filterMedia.innerHTML = `<option value="">All media</option>` +
     mediums.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
   filterGenre.innerHTML = `<option value="">All genres</option>` +
     genres.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
 
-  filterMedia.addEventListener('change', () => filterMedia.classList.toggle('filter-active', !!filterMedia.value));
-  filterGenre.addEventListener('change', () => filterGenre.classList.toggle('filter-active', !!filterGenre.value));
+  filterMedia.value = curMedia;
+  filterGenre.value = curGenre;
+  filterMedia.classList.toggle('filter-active', !!filterMedia.value);
+  filterGenre.classList.toggle('filter-active', !!filterGenre.value);
 }
+
+filterMedia.addEventListener('change', () => filterMedia.classList.toggle('filter-active', !!filterMedia.value));
+filterGenre.addEventListener('change', () => filterGenre.classList.toggle('filter-active', !!filterGenre.value));
 
 function setMode(next) {
   mode = next;
@@ -105,7 +123,7 @@ function renderMovies(query) {
 
 function cardHtml(m) {
   return `<div class="card" data-uid="${escapeHtml(m.uid)}">
-    <img src="${escapeHtml(m.cover)}" alt="${escapeHtml(m.title)} cover" loading="lazy">
+    <img src="${escapeHtml(coverSrc(m))}" alt="${escapeHtml(m.title)} cover" loading="lazy">
     <div class="meta">
       <div class="t">${escapeHtml(m.title)}</div>
       <div class="y">${escapeHtml(m.year)} &middot; ${escapeHtml(m.medium)}</div>
@@ -149,7 +167,7 @@ function showDetail(uid) {
     <div class="sheet" role="dialog" aria-modal="true" aria-label="${escapeHtml(m.title)}">
       <button class="sheet-close" aria-label="Close">&times;</button>
       <div class="sheet-head">
-        <img src="${escapeHtml(m.cover)}" alt="">
+        <img src="${escapeHtml(coverSrc(m))}" alt="">
         <div>
           <h2>${escapeHtml(m.title)}</h2>
           <div class="sheet-year">${escapeHtml(m.year)}</div>

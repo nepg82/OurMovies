@@ -13,7 +13,10 @@
 <body>
 
 <div class="topbar">
-  <h1>Our<span class="dot">Movies</span></h1>
+  <div class="topbar-top">
+    <h1>Our<span class="dot">Movies</span></h1>
+    <a href="admin.html" id="syncStamp" class="sync-stamp"></a>
+  </div>
   <div class="mode-tabs">
     <button id="tabMovies" class="active" onclick="setMode('movies')">Movies</button>
     <button id="tabPeople" onclick="setMode('people')">People</button>
@@ -33,6 +36,7 @@
 <div id="alphaRail" class="alpha-rail"></div>
 
 <script src="shared.js"></script>
+<script src="sync.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

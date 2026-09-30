@@ -15,6 +15,16 @@
     <a href="index.html" class="back-link">&larr; Back to shelf</a>
   </div>
 
+  <div class="section-title" style="margin-top:0;">Backup</div>
+  <div class="import-panel">
+    <div class="push-row">
+      <button class="btn" id="pushBtn" onclick="doPush()" disabled>Push changes</button>
+      <button class="btn secondary" id="discardBtn" onclick="doDiscard()" style="display:none;">Discard</button>
+    </div>
+    <div class="push-status" id="pushStatus"></div>
+    <div class="debug-log" id="pushLog" style="display:none;"></div>
+  </div>
+
   <div class="section-title">Credentials</div>
 
   <details id="detTmdb">
@@ -118,6 +128,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script src="shared.js"></script>
+<script src="sync.js"></script>
 <script src="admin.js"></script>
 <script src="import.js"></script>
 <script src="migrate.js"></script>

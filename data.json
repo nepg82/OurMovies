@@ -4328,6 +4328,7 @@
     "sortTitle": "Angel Has Fallen",
     "director": "Ric Roman Waugh",
     "year": "2019",
+	"customSort": "Olympus Has Fallen 3",
     "actors": [
       "Gerard Butler",
       "Frederick Schmidt",
@@ -45431,6 +45432,7 @@
     "sortTitle": "London Has Fallen",
     "director": "Babak Najafi",
     "year": "2016",
+   	"customSort": "Olympus Has Fallen 2",
     "actors": [
       "Alon Aboutboul",
       "Waleed Zuaiter",
@@ -54758,6 +54760,7 @@
     "sortTitle": "Olympus Has Fallen",
     "director": "Antoine Fuqua",
     "year": "2013",
+	"customSort": "Olympus Has Fallen 1",
     "actors": [
       "Gerard Butler",
       "Aaron Eckhart",

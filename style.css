@@ -632,3 +632,34 @@ body.sheet-open { overflow: hidden; }
   font-size: 0.8rem;
   line-height: 1.4;
 }
+
+/* --- Sync indicator & push panel --- */
+
+.topbar-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.topbar-top h1 { margin: 0; }
+
+.sync-stamp {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.sync-stamp.dirty { color: var(--accent); font-weight: 600; }
+
+.push-row { display: flex; gap: 8px; }
+.push-status { font-size: 0.8rem; color: var(--text-muted); margin-top: 10px; line-height: 1.4; }
+
+.sheet-title { margin: 0 0 8px; font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 1.25rem; }
+.sheet-text { margin: 0 0 14px; font-size: 0.9rem; line-height: 1.5; }
+.sheet-error { margin: 0 0 10px; font-size: 0.82rem; color: #d97862; }
+.sheet-error:empty { display: none; }
+.sheet-actions { display: flex; gap: 8px; }
