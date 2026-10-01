@@ -25,6 +25,22 @@
     <div class="debug-log" id="pushLog" style="display:none;"></div>
   </div>
 
+  <div class="section-title">Add a movie</div>
+  <div class="import-panel" id="addPanel">
+    <div class="add-search">
+      <div class="field"><label for="addQuery">Title</label><input type="text" id="addQuery" placeholder="Search TMDB" autocomplete="off"></div>
+      <div class="field add-year"><label for="addYear">Year</label><input type="text" id="addYear" placeholder="Optional" inputmode="numeric" autocomplete="off"></div>
+    </div>
+    <button class="btn" id="addSearchBtn" onclick="addSearch()">Search TMDB</button>
+    <button class="btn secondary" onclick="addToggleManual()">Enter manually</button>
+    <div id="addResults"></div>
+    <div id="addPickBox"></div>
+    <div id="addManual" style="display:none;"></div>
+    <div class="push-status" id="addMsg"></div>
+    <datalist id="dlAddMedium"></datalist>
+    <datalist id="dlAddGenre"></datalist>
+  </div>
+
   <div class="section-title">Credentials</div>
 
   <details id="detTmdb">
@@ -86,43 +102,81 @@
     </div>
   </details>
 
-  <div class="section-title">Import collection</div>
-  <div class="import-panel">
-    <div class="field">
-      <label for="importFile">Cleaned CSV file</label>
-      <input type="file" id="importFile" accept=".csv">
-      <div class="field-hint">Expects columns: Title, Director, Year, Actors, Genre, Medium, IMDbID, NeedsReview. Your existing Title, Director, Year, Actors, and Genre are kept as-is — TMDB is only called to fetch cover art, to fill in any of those fields that were already blank in the CSV, and to look up writing credits (there's no CSV column for those — they always come from TMDB).</div>
-    </div>
-    <button class="btn" id="importStartBtn" onclick="startImport()">Start import</button>
-    <button class="btn secondary" id="importDownloadBtn" style="display:none;" onclick="downloadImportZip()">Download result (.zip)</button>
-    <div class="import-progress" id="importProgress" style="display:none;">
-      <div class="progress-bar-track"><div class="progress-bar-fill" id="progressFill"></div></div>
-      <div class="progress-text" id="progressText"></div>
-    </div>
-    <div class="debug-log" id="importLog" style="display:none;">Ready.</div>
-  </div>
+  <div class="section-title">Maintenance</div>
 
-  <div class="section-title">Backfill writer credits</div>
-  <div class="import-panel">
-    <div class="field-hint" style="margin-bottom:12px;">One-time cleanup for movies you imported before the writer field existed. Scans your current data.json, looks up writing credits on TMDB for anything missing them (up to 4, ranked Screenplay &gt; Writer &gt; Story &gt; Teleplay &gt; Novel), and leaves everything else untouched — cover art, director, cast, all of it stay exactly as they are. Uses the TMDB key above.</div>
-    <button class="btn" id="migrateStartBtn" onclick="startMigration()">Scan collection</button>
-    <button class="btn secondary" id="migrateDownloadBtn" style="display:none;" onclick="downloadMigratedData()">Download updated data.json</button>
-    <div class="import-progress" id="migrateProgress" style="display:none;">
-      <div class="progress-bar-track"><div class="progress-bar-fill" id="migrateProgressFill"></div></div>
-      <div class="progress-text" id="migrateProgressText"></div>
+  <details id="detImport">
+    <summary><span class="label-row">Import &amp; export collection</span></summary>
+    <div class="details-body">
+      <div class="sub-title">Export</div>
+      <div class="field-hint" style="margin:0 0 10px;">Downloads your whole collection (including anything you've added or edited but not pushed yet) as a CSV in the exact format Import reads, plus a CustomSort column so your series ordering survives. Covers and writing credits aren't stored in the CSV; Import re-fetches them from TMDB.</div>
+      <button class="btn" onclick="exportCollectionCsv()">Export collection (.csv)</button>
+      <span class="save-msg" id="exportMsg"></span>
+
+      <div class="sub-title">Import</div>
+      <div class="warn-note">Import is for starting from scratch. It builds a brand-new data.json and thumbs folder from the CSV and ignores what's already in the app, so committing its result replaces your entire collection. Anything that isn't in the CSV (edits, additions, custom sorts) is lost. If you're unsure, export first.</div>
+      <div class="field">
+        <label for="importFile">Cleaned CSV file</label>
+        <input type="file" id="importFile" accept=".csv">
+        <div class="field-hint">Expects columns: Title, Director, Year, Actors, Genre, Medium, IMDbID, NeedsReview, and optionally CustomSort. Your existing Title, Director, Year, Actors, and Genre are kept as-is — TMDB is only called to fetch cover art, to fill in any of those fields that were already blank in the CSV, and to look up writing credits (there's no CSV column for those — they always come from TMDB).</div>
+      </div>
+      <button class="btn" id="importStartBtn" onclick="startImport()">Start import</button>
+      <button class="btn secondary" id="importDownloadBtn" style="display:none;" onclick="downloadImportZip()">Download result (.zip)</button>
+      <div class="import-progress" id="importProgress" style="display:none;">
+        <div class="progress-bar-track"><div class="progress-bar-fill" id="progressFill"></div></div>
+        <div class="progress-text" id="progressText"></div>
+      </div>
+      <div class="debug-log" id="importLog" style="display:none;">Ready.</div>
     </div>
-    <div class="debug-log" id="migrateLog" style="display:none;">Ready.</div>
-  </div>
+  </details>
 
-  <div class="section-title">Add a movie</div>
-  <div class="stub-note">
-    Scan-to-add isn't wired up yet — it needs the TMDB and UPCitemdb keys above first. Once those are saved, this section will let you scan a barcode and commit the movie straight to your collection.
-  </div>
+  <details id="detOrphans">
+    <summary><span class="label-row">Unused cover finder</span></summary>
+    <div class="details-body">
+      <div class="field-hint" style="margin:12px 0 10px;">Looks in the thumbs folder on GitHub for cover files that no record uses. Nothing is deleted until you review the list and confirm; deletion is a single commit, so git history can bring anything back.</div>
+      <button class="btn" id="orphanScanBtn" onclick="orphanScan()">Scan for unused covers</button>
+      <div class="push-status" id="orphanStatus"></div>
+      <div id="orphanList"></div>
+      <div class="orphan-actions" id="orphanActions" style="display:none;">
+        <button class="btn danger" id="orphanDeleteBtn" onclick="orphanDelete()">Delete selected</button>
+        <button class="btn secondary" onclick="orphanSelect(true)">Select all</button>
+        <button class="btn secondary" onclick="orphanSelect(false)">Select none</button>
+      </div>
+    </div>
+  </details>
 
-  <div class="section-title">Debug</div>
-  <button class="btn danger" onclick="refreshFromGit()">Refresh from Git</button>
-  <div class="field-hint">Unregisters the app's cached service worker and clears the cache, then reloads so every file — app code and data — is pulled fresh from your GitHub Pages site. Use this if the app looks out of date after a change.</div>
-  <div class="debug-log" id="debugLog">Ready.</div>
+  <!--
+    MOTHBALLED: "Backfill writer credits" card.
+    One-time cleanup for records imported before the writer field existed. It's hidden because that
+    job is done, but the code is kept in case it's ever needed again. To bring it back:
+      1. uncomment the card below, and
+      2. uncomment the <script src="migrate.js"> tag at the bottom of this file.
+    (migrate.js still lives in the repo and relies on helpers in import.js and shared.js.)
+    Note: it produces a data.json to commit by hand, which bypasses the Push button and version stamp.
+  -->
+  <!--
+  <details id="detBackfill">
+    <summary><span class="label-row">Backfill writer credits</span></summary>
+    <div class="details-body">
+      <div class="field-hint" style="margin:12px 0;">One-time cleanup for movies you imported before the writer field existed. Scans your current data.json, looks up writing credits on TMDB for anything missing them (up to 4, ranked Screenplay &gt; Writer &gt; Story &gt; Teleplay &gt; Novel), and leaves everything else untouched — cover art, director, cast, all of it stay exactly as they are. Uses the TMDB key above.</div>
+      <button class="btn" id="migrateStartBtn" onclick="startMigration()">Scan collection</button>
+      <button class="btn secondary" id="migrateDownloadBtn" style="display:none;" onclick="downloadMigratedData()">Download updated data.json</button>
+      <div class="import-progress" id="migrateProgress" style="display:none;">
+        <div class="progress-bar-track"><div class="progress-bar-fill" id="migrateProgressFill"></div></div>
+        <div class="progress-text" id="migrateProgressText"></div>
+      </div>
+      <div class="debug-log" id="migrateLog" style="display:none;">Ready.</div>
+    </div>
+  </details>
+  -->
+
+  <details id="detDebug">
+    <summary><span class="label-row">Debug</span></summary>
+    <div class="details-body">
+      <div style="margin-top:12px;"><button class="btn danger" onclick="refreshFromGit()">Refresh from Git</button></div>
+      <div class="field-hint">Unregisters the app's cached service worker and clears the cache, then reloads so every file — app code and data — is pulled fresh from your GitHub Pages site. Use this if the app looks out of date after a change.</div>
+      <div class="debug-log" id="debugLog">Ready.</div>
+    </div>
+  </details>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
@@ -131,6 +185,8 @@
 <script src="sync.js"></script>
 <script src="admin.js"></script>
 <script src="import.js"></script>
-<script src="migrate.js"></script>
+<!-- Mothballed with the Backfill card above; uncomment to restore: <script src="migrate.js"></script> -->
+<script src="add.js"></script>
+<script src="orphans.js"></script>
 </body>
 </html>

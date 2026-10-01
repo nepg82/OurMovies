@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'movie-shelf-v5';
+const CACHE_VERSION = 'movie-shelf-v7';
 const CORE_ASSETS = [
   'index.html',
   'admin.html',
@@ -9,6 +9,8 @@ const CORE_ASSETS = [
   'migrate.js',
   'shared.js',
   'sync.js',
+  'add.js',
+  'orphans.js',
   'manifest.json',
   'data.json',
   'app-icon/app-icon-192.png',

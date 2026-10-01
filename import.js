@@ -34,6 +34,7 @@ async function processRow(row, tmdbKey) {
   const medium = (row.Medium || '').trim();
   const csvActors = (row.Actors || '').split(',').map(a => a.trim()).filter(Boolean);
   const priorReview = (row.NeedsReview || '').trim();
+  const csvCustomSort = (row.CustomSort || '').trim();
 
   const needsDirector = !csvDirector;
   const needsActors = csvActors.length === 0;
@@ -138,6 +139,7 @@ async function processRow(row, tmdbKey) {
       medium,
       cover: coverFile,
       needsReview: allReview,
+      ...(csvCustomSort ? { customSort: csvCustomSort } : {}),
     },
     posterBlob,
     coverFile,
@@ -179,6 +181,10 @@ function startImport() {
   }
   if (!fileInput.files.length) {
     importLog('Choose a CSV file first.');
+    return;
+  }
+  const existing = (typeof SYNC !== 'undefined' && SYNC.movies) ? SYNC.movies.length : 0;
+  if (existing && !confirm(`Your collection already has ${existing} titles.\n\nImport builds a brand-new data.json from the CSV. If you commit its result, everything not in the CSV (edits, additions, custom sorts) is lost.\n\nContinue?`)) {
     return;
   }
 
@@ -261,4 +267,33 @@ function downloadImportZip() {
   a.click();
   a.remove();
   setTimeout(() => URL.revokeObjectURL(url), 5000);
+}
+
+// Exports the collection as a CSV that startImport() can read back.
+// Includes unpushed changes (what you see on the shelf).
+async function exportCollectionCsv() {
+  const msg = document.getElementById('exportMsg');
+  try {
+    if (!SYNC.movies) await syncInit();
+    const movies = applyOps(SYNC.movies, await dbAll('ops')).sort(compareMovies);
+    const fields = ['Title', 'Director', 'Year', 'Actors', 'Genre', 'Medium', 'IMDbID', 'NeedsReview', 'CustomSort'];
+    const data = movies.map(m => [
+      m.title || '', m.director || '', m.year || '', (m.actors || []).join(', '), m.genre || '', m.medium || '',
+      /^tt\d+$/.test(m.id) ? m.id : '', m.needsReview || '', m.customSort || '',
+    ]);
+    const csv = Papa.unparse({ fields, data });
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `ourmovies-export-${makeStamp()}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 5000);
+    msg.textContent = `Exported ${data.length} titles.`;
+  } catch (err) {
+    msg.textContent = 'Export failed: ' + err.message;
+  }
+  setTimeout(() => { msg.textContent = ''; }, 6000);
 }

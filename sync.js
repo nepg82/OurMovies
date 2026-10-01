@@ -11,7 +11,7 @@ const SYNC_KEYS = {
 const NO_POSTER_PATH = 'thumbs/_no-poster.svg';
 
 // baseStamp = stamp of the Git data this device's pending changes sit on top of.
-const SYNC = { baseStamp: null };
+const SYNC = { baseStamp: null, movies: null }; // movies = loaded base data, before pending ops
 let PENDING_COVER_URLS = {}; // cover path -> object URL, for covers not pushed yet
 let syncPushing = false;
 
@@ -124,7 +124,7 @@ async function queueDelete(uid) {
   for (const o of ops) {
     if ((o.type === 'add' && o.movie.uid === uid) || (o.type === 'edit' && o.uid === uid)) await dbDelete('ops', o.seq);
   }
-  if (add.coverPath && !ops.some(o => o !== add && o.coverPath === add.coverPath)) await dbDelete('covers', add.coverPath);
+  if (add.coverPath && !ops.some(o => o !== add && o.type === 'add' && o.movie.cover === add.coverPath)) await dbDelete('covers', add.coverPath);
   await loadPendingCovers();
   syncChanged(false);
 }
@@ -171,6 +171,7 @@ async function syncInit() {
   }
   assignUids(movies);
   SYNC.baseStamp = stamp;
+  SYNC.movies = movies;
   await loadPendingCovers();
   return { movies, stamp };
 }
@@ -351,18 +352,17 @@ async function pushChanges(log = () => {}) {
 
     const entries = [];
 
-    // New cover images
+    // New cover images: any pending blob that a surviving record points at
+    const stillUsed = new Set(newMovies.map(m => m.cover));
     const covers = await dbAll('covers');
-    const addedPaths = new Set(ops.filter(o => o.type === 'add' && o.coverPath).map(o => o.coverPath));
     for (const c of covers) {
-      if (!addedPaths.has(c.path)) continue;
+      if (!stillUsed.has(c.path)) continue;
       log(`Uploading ${c.path}...`);
       const b = await gh('/git/blobs', { method: 'POST', body: { content: await blobToBase64(c.blob), encoding: 'base64' } });
       entries.push({ path: c.path, mode: '100644', type: 'blob', sha: b.sha });
     }
 
     // Covers no remaining record points at (never the placeholder)
-    const stillUsed = new Set(newMovies.map(m => m.cover));
     const orphanCandidates = [...new Set(gitMovies.map(m => m.cover))]
       .filter(p => p && p.startsWith('thumbs/') && p !== NO_POSTER_PATH && !stillUsed.has(p));
     const removedCovers = [];
@@ -396,7 +396,7 @@ async function pushChanges(log = () => {}) {
 
     // Success: drop only the ops we pushed, remember the pushed copy until Pages catches up.
     for (const op of ops) await dbDelete('ops', op.seq);
-    for (const p of addedPaths) await dbDelete('covers', p);
+    for (const c of covers) await dbDelete('covers', c.path);
     await dbPut('meta', { stamp, movies: newMovies }, 'gitCopy');
     await evictCachedCovers(removedCovers);
     syncChanged(true);
