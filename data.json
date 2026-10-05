@@ -4652,7 +4652,8 @@
         "name": "Paul Rudd"
       }
     ],
-    "uid": "tt0478970~0"
+    "uid": "tt0478970~0",
+    "customSort": "MCU 14"
   },
   {
     "id": "tt5095030",
@@ -4694,7 +4695,8 @@
         "name": "Chris McKenna"
       }
     ],
-    "uid": "tt5095030~0"
+    "uid": "tt5095030~0",
+    "customSort": "MCU 21"
   },
   {
     "id": "tt0218817",
@@ -5874,7 +5876,8 @@
         "name": "Jack Kirby"
       }
     ],
-    "uid": "tt0848228~0"
+    "uid": "tt0848228~0",
+    "customSort": "MCU 7"
   },
   {
     "id": "tt2395427",
@@ -5916,7 +5919,8 @@
         "name": "Jim Starlin"
       }
     ],
-    "uid": "tt2395427~0"
+    "uid": "tt2395427~0",
+    "customSort": "MCU 13"
   },
   {
     "id": "tt4154796",
@@ -5958,7 +5962,8 @@
         "name": "Jim Starlin"
       }
     ],
-    "uid": "tt4154796~0"
+    "uid": "tt4154796~0",
+    "customSort": "MCU 23"
   },
   {
     "id": "tt4154756",
@@ -6000,7 +6005,8 @@
         "name": "Bill Mantlo"
       }
     ],
-    "uid": "tt4154756~0"
+    "uid": "tt4154756~0",
+    "customSort": "MCU 22"
   },
   {
     "id": "tt0338751",
@@ -8877,7 +8883,8 @@
         "name": "Jack Kirby"
       }
     ],
-    "uid": "tt1825683~0"
+    "uid": "tt1825683~0",
+    "customSort": "MCU 17"
   },
   {
     "id": "tt0947798",
@@ -12456,7 +12463,8 @@
         "name": "Joe Simon"
       }
     ],
-    "uid": "tt3498820~0"
+    "uid": "tt3498820~0",
+    "customSort": "MCU 15"
   },
   {
     "id": "tt0458339",
@@ -12498,7 +12506,8 @@
         "name": "Joe Simon"
       }
     ],
-    "uid": "tt0458339~0"
+    "uid": "tt0458339~0",
+    "customSort": "MCU 1"
   },
   {
     "id": "tt1843866",
@@ -12540,7 +12549,8 @@
         "name": "Jack Kirby"
       }
     ],
-    "uid": "tt1843866~0"
+    "uid": "tt1843866~0",
+    "customSort": "MCU 10"
   },
   {
     "id": "tt1843866",
@@ -12582,7 +12592,8 @@
         "name": "Jack Kirby"
       }
     ],
-    "uid": "tt1843866~1"
+    "uid": "tt1843866~1",
+    "customSort": "MCU 10"
   },
   {
     "id": "tt4154664",
@@ -12624,7 +12635,8 @@
         "name": "Meg LeFauve"
       }
     ],
-    "uid": "tt4154664~0"
+    "uid": "tt4154664~0",
+    "customSort": "MCU 2"
   },
   {
     "id": "tt0374563",
@@ -37510,7 +37522,8 @@
         "name": "Jack Kirby"
       }
     ],
-    "uid": "tt0800080~0"
+    "uid": "tt0800080~0",
+    "customSort": "MCU 5"
   },
   {
     "id": "tt0317705",
@@ -38738,7 +38751,8 @@
         "name": "Matt Holloway"
       }
     ],
-    "uid": "tt0371746~0"
+    "uid": "tt0371746~0",
+    "customSort": "MCU 3"
   },
   {
     "id": "tt1228705",
@@ -38780,7 +38794,8 @@
         "name": "Stan Lee"
       }
     ],
-    "uid": "tt1228705~0"
+    "uid": "tt1228705~0",
+    "customSort": "MCU 4"
   },
   {
     "id": "tt1300854",
@@ -38822,7 +38837,8 @@
         "name": "Stan Lee"
       }
     ],
-    "uid": "tt1300854~0"
+    "uid": "tt1300854~0",
+    "customSort": "MCU 8"
   },
   {
     "id": "tt0399201",
@@ -47908,7 +47924,8 @@
         "name": "Jack Kirby"
       }
     ],
-    "uid": "tt0848228~1"
+    "uid": "tt0848228~1",
+    "customSort": "MCU 7"
   },
   {
     "id": "tt0116999",
@@ -69439,7 +69456,8 @@
         "name": "Joe Simon"
       }
     ],
-    "uid": "tt6320628~0"
+    "uid": "tt6320628~0",
+    "customSort": "MCU 25"
   },
   {
     "id": "tt2250912",
@@ -69481,7 +69499,8 @@
         "name": "Christopher Ford"
       }
     ],
-    "uid": "tt2250912~0"
+    "uid": "tt2250912~0",
+    "customSort": "MCU 18"
   },
   {
     "id": "tt10872600",
@@ -69523,7 +69542,8 @@
         "name": "Steve Ditko"
       }
     ],
-    "uid": "tt10872600~0"
+    "uid": "tt10872600~0",
+    "customSort": "MCU 27"
   },
   {
     "id": "tt0416236",
@@ -73505,7 +73525,8 @@
         "name": "J. Michael Straczynski"
       }
     ],
-    "uid": "tt0800369~0"
+    "uid": "tt0800369~0",
+    "customSort": "MCU 6"
   },
   {
     "id": "tt3501632",
@@ -73547,7 +73568,8 @@
         "name": "Jack Kirby"
       }
     ],
-    "uid": "tt3501632~0"
+    "uid": "tt3501632~0",
+    "customSort": "MCU 20"
   },
   {
     "id": "tt1981115",
@@ -73589,7 +73611,8 @@
         "name": "Don Payne"
       }
     ],
-    "uid": "tt1981115~0"
+    "uid": "tt1981115~0",
+    "customSort": "MCU 9"
   },
   {
     "id": "tt1981115",
@@ -73631,7 +73654,8 @@
         "name": "Don Payne"
       }
     ],
-    "uid": "tt1981115~1"
+    "uid": "tt1981115~1",
+    "customSort": "MCU 9"
   },
   {
     "id": "tt0059797",
