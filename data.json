@@ -82301,5 +82301,43 @@
       }
     ],
     "uid": "tt1560220~0"
+  },
+  {
+    "id": "tt12042730",
+    "uid": "u0dnazptmjp8",
+    "title": "Project Hail Mary",
+    "sortTitle": "Project Hail Mary",
+    "director": "Phil Lord",
+    "year": "2026",
+    "actors": [
+      "Ryan Gosling",
+      "Sandra Hüller",
+      "James Ortiz",
+      "Lionel Boyce",
+      "Milana Vayntrub",
+      "Ken Leung",
+      "Priya Kansara",
+      "Mia Soteriou",
+      "Annelle Olaleye",
+      "Maya Eva Hosein"
+    ],
+    "writers": [
+      {
+        "job": "Screenplay",
+        "name": "Drew Goddard"
+      },
+      {
+        "job": "Novel",
+        "name": "Andy Weir"
+      },
+      {
+        "job": "Head of Story",
+        "name": "Richard Phelan"
+      }
+    ],
+    "genre": "Science Fiction",
+    "medium": "Blu-ray",
+    "cover": "thumbs/tt12042730.jpg",
+    "needsReview": ""
   }
 ]
