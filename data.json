@@ -1731,10 +1731,14 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mvppzopi.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~6"
+    "uid": "tt0000000~6",
+    "contents": [
+      "Above the Law (1988)",
+      "Hard to Kill (1990)"
+    ]
   },
   {
     "id": "tt1611224",
