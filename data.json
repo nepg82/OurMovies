@@ -40817,7 +40817,8 @@
         "name": "Michael Crichton"
       }
     ],
-    "uid": "tt0107290~0"
+    "uid": "tt0107290~0",
+    "customSort": "Jurassic 1"
   },
   {
     "id": "tt0163025",
@@ -40859,7 +40860,8 @@
         "name": "Michael Crichton"
       }
     ],
-    "uid": "tt0163025~0"
+    "uid": "tt0163025~0",
+    "customSort": "Jurassic 3"
   },
   {
     "id": "tt0000000",
@@ -40873,7 +40875,8 @@
     "cover": "thumbs/_no-poster.svg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~50"
+    "uid": "tt0000000~50",
+    "customSort": "Jurassic 0"
   },
   {
     "id": "tt0369610",
@@ -40915,7 +40918,8 @@
         "name": "Colin Trevorrow"
       }
     ],
-    "uid": "tt0369610~0"
+    "uid": "tt0369610~0",
+    "customSort": "Jurassic 4"
   },
   {
     "id": "tt8041270",
@@ -40957,7 +40961,8 @@
         "name": "Derek Connolly"
       }
     ],
-    "uid": "tt8041270~0"
+    "uid": "tt8041270~0",
+    "customSort": "Jurassic 6"
   },
   {
     "id": "tt4881806",
@@ -40995,7 +41000,8 @@
         "name": "Michael Crichton"
       }
     ],
-    "uid": "tt4881806~0"
+    "uid": "tt4881806~0",
+    "customSort": "Jurassic 5"
   },
   {
     "id": "tt4881806",
@@ -41033,7 +41039,8 @@
         "name": "Michael Crichton"
       }
     ],
-    "uid": "tt4881806~1"
+    "uid": "tt4881806~1",
+    "customSort": "Jurassic 5"
   },
   {
     "id": "tt0113501",
@@ -46340,7 +46347,8 @@
         "name": "Michael Crichton"
       }
     ],
-    "uid": "tt0119567~0"
+    "uid": "tt0119567~0",
+    "customSort": "Jurassic 2"
   },
   {
     "id": "tt0758752",
