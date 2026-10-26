@@ -75,6 +75,7 @@ const dbClear = (s) => dbRun(s, 'readwrite', o => o.clear());
 function applyChanges(m, changes) {
   for (const [k, v] of Object.entries(changes)) {
     if (k === 'customSort' && !String(v == null ? '' : v).trim()) delete m.customSort;
+    else if (k === 'contents' && !(v && v.length)) delete m.contents;
     else m[k] = v;
   }
   // Renaming regenerates the auto sort title; customSort is never touched.

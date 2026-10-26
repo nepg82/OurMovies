@@ -88,10 +88,11 @@ function renderMovies(query) {
   const mediaVal = filterMedia.value;
   const genreVal = filterGenre.value;
 
-  // Search matches the real title only, never customSort.
+  // Search matches the real title and any pack contents, never customSort.
   const list = MOVIES.filter(m => {
-    const matchesQuery = !query || (m.title || '').toLowerCase().includes(query);
-    const matchesMedia = !mediaVal || m.medium === mediaVal;
+    const matchesQuery = !query || (m.title || '').toLowerCase().includes(query)
+      || (m.contents || []).some(t => t.toLowerCase().includes(query));
+	const matchesMedia = !mediaVal || m.medium === mediaVal;
     const matchesGenre = !genreVal || m.genre === genreVal;
     return matchesQuery && matchesMedia && matchesGenre;
   });
@@ -161,6 +162,10 @@ function showDetail(uid) {
     ? `<div class="sheet-cast"><div class="sheet-cast-label">Cast</div>${escapeHtml(m.actors.join(', '))}</div>`
     : '';
 
+  const contents = (m.contents || []).length
+    ? `<div class="sheet-cast"><div class="sheet-cast-label">Contains</div>${m.contents.map(t => escapeHtml(t)).join('<br>')}</div>`
+    : '';
+
   const review = m.needsReview
     ? `<div class="sheet-review">Flagged for review: ${escapeHtml(m.needsReview)}</div>`
     : '';
@@ -180,6 +185,7 @@ function showDetail(uid) {
       </div>
       <dl class="sheet-rows">${rowsHtml}</dl>
       ${cast}
+      ${contents}
       ${review}
       ${ghReady() ? `<div class="sheet-actions" id="sheetActions">
         <button class="btn" data-act="edit">Edit</button>
@@ -251,6 +257,8 @@ function showEditForm(m) {
       <textarea id="eActors" rows="3">${escapeHtml((m.actors || []).join(', '))}</textarea></div>
     <div class="field"><label for="eWriters">Writers (one per line, Job: Name)</label>
       <textarea id="eWriters" rows="3">${escapeHtml((m.writers || []).map(w => `${w.job}: ${w.name}`).join('\n'))}</textarea></div>
+    <div class="field"><label for="eContents">Contains (one title per line, for packs)</label>
+      <textarea id="eContents" rows="4">${escapeHtml((m.contents || []).join('\n'))}</textarea></div>
     <div class="field"><label for="eCover">Replace cover (optional)</label>
       <input type="file" id="eCover" accept="image/*"></div>
     <div class="sheet-error" id="eError"></div>
@@ -283,6 +291,7 @@ function showEditForm(m) {
       medium: $('eMedium').value.trim(),
       actors: $('eActors').value.split(',').map(s => s.trim()).filter(Boolean),
       writers: parseWriters($('eWriters').value),
+      contents: $('eContents').value.split('\n').map(s => s.trim()).filter(Boolean),
     };
     if (!next.title) { $('eError').textContent = 'Title can\u2019t be blank.'; return; }
     if (!next.medium) { $('eError').textContent = 'Medium can\u2019t be blank.'; return; }
