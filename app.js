@@ -122,11 +122,16 @@ function renderMovies(query) {
 }
 
 function cardHtml(m) {
+  const customSort = (m.customSort || '').trim();
+  const sortLine = customSort
+    ? `<div class="y sort-note">&ldquo;${escapeHtml(customSort)}&rdquo;</div>`
+    : '';
   return `<div class="card" data-uid="${escapeHtml(m.uid)}">
     <img src="${escapeHtml(coverSrc(m))}" alt="${escapeHtml(m.title)} cover" loading="lazy">
     <div class="meta">
       <div class="t">${escapeHtml(m.title)}</div>
       <div class="y">${escapeHtml(m.year)} &middot; ${escapeHtml(m.medium)}</div>
+      ${sortLine}
     </div>
   </div>`;
 }
