@@ -159,7 +159,21 @@
     "cover": "thumbs/tt0000000-mvpfdzeo.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~0"
+    "uid": "tt0000000~0",
+    "contents": [
+      "Avenging Angelo (2002)",
+      "Blitz (2011)",
+      "The Contract (2006)",
+      "Cyborg Soldier (2008)",
+      "Desert Saints (2002)",
+      "Direct Action (2004)",
+      "The Iceman (2012)",
+      "Rampart (2011)",
+      "Stolen (2012)",
+      "Trespass (2011)",
+      "Wake of Death (2004)",
+      "War, Inc. (2008)"
+    ]
   },
   {
     "id": "tt1413492",
@@ -1236,7 +1250,14 @@
     "cover": "thumbs/tt0000000-mvpfa1dc.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~2"
+    "uid": "tt0000000~2",
+    "customSort": "Lethal Weapon",
+    "contents": [
+      "Lethal Weapon",
+      "Lethal Weapon 2",
+      "Lethal Weapon 3",
+      "Lethal Weapon 4"
+    ]
   },
   {
     "id": "tt0000000",
@@ -1250,7 +1271,13 @@
     "cover": "thumbs/tt0000000-mvpfatag.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~3"
+    "uid": "tt0000000~3",
+    "contents": [
+      "Lucky You (2007)",
+      "Music and Lyrics (2007)",
+      "Rumor Has It (2005)",
+      "Sweet November (2001)"
+    ]
   },
   {
     "id": "tt0024034",
@@ -1381,7 +1408,15 @@
     "cover": "thumbs/tt0000000-mvpfcakf.jpg",
     "needsReview": "no year; no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~4"
+    "uid": "tt0000000~4",
+    "contents": [
+      "Blindness (2008)",
+      "Gerry (2002)",
+      "The Hole (2001)",
+      "The I Inside (2004)",
+      "O (2001)",
+      "Tangled (2001)"
+    ]
   },
   {
     "id": "tt0298203",
@@ -1425,7 +1460,17 @@
     "cover": "thumbs/tt0000000-mvpfcy1d.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~5"
+    "uid": "tt0000000~5",
+    "contents": [
+      "Death Rides a Horse (1967)",
+      "Fort Yuma Gold (1966)",
+      "The Gatling Gun (1971)",
+      "Grand Duel (1972)",
+      "If You Meet Sartana, Pray For Your Death (1968)",
+      "Requiescant (1967)",
+      "The Revenge of Trinity (1970)",
+      "Wanted (1967)"
+    ]
   },
   {
     "id": "tt0411061",
