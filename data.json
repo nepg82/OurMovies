@@ -39812,22 +39812,6 @@
     "uid": "tt0446059~0"
   },
   {
-    "id": "tt0000000",
-    "title": "Jillian Michaels: No More Trouble Zones",
-    "sortTitle": "Jillian Michaels: No More Trouble Zones",
-    "director": "Andrea Ambandos",
-    "year": "2008",
-    "actors": [
-      "Jillian Michaels"
-    ],
-    "genre": "Special Interest",
-    "medium": "DVD",
-    "cover": "thumbs/tt0000000.jpg",
-    "needsReview": "matched by title search, not IMDb ID — verify",
-    "writers": [],
-    "uid": "tt0000000~47"
-  },
-  {
     "id": "tt0099892",
     "title": "Joe Versus the Volcano",
     "sortTitle": "Joe Versus the Volcano",
@@ -39923,24 +39907,6 @@
       }
     ],
     "uid": "tt0401729~0"
-  },
-  {
-    "id": "tt0000000",
-    "title": "John Pinette - I Say Nay Nay",
-    "sortTitle": "John Pinette - I Say Nay Nay",
-    "director": "Robert Krakower",
-    "year": "2005",
-    "actors": [
-      "John Pinette",
-      "Larry Schapriro",
-      "John Pierre Dechene"
-    ],
-    "genre": "Comedy",
-    "medium": "DVD",
-    "cover": "thumbs/tt0000000.jpg",
-    "needsReview": "matched by title search, not IMDb ID — verify",
-    "writers": [],
-    "uid": "tt0000000~48"
   },
   {
     "id": "tt1073499",
@@ -82346,6 +82312,43 @@
     "genre": "Science Fiction",
     "medium": "Blu-ray",
     "cover": "thumbs/tt12042730.jpg",
+    "needsReview": ""
+  },
+  {
+    "id": "tt1567243",
+    "uid": "upkol6i661fu",
+    "title": "John Pinette: I Say Nay Nay",
+    "sortTitle": "John Pinette: I Say Nay Nay",
+    "director": "Robert Krakower",
+    "year": "2005",
+    "actors": [
+      "John Pinette"
+    ],
+    "writers": [
+      {
+        "job": "Writer",
+        "name": "John Pinette"
+      }
+    ],
+    "genre": "Comedy",
+    "medium": "DVD",
+    "cover": "thumbs/tt1567243.jpg",
+    "needsReview": ""
+  },
+  {
+    "id": "tmdb-287332",
+    "uid": "u1cgvnqn3fel",
+    "title": "Jillian Michaels: No More Trouble Zones",
+    "sortTitle": "Jillian Michaels: No More Trouble Zones",
+    "director": "",
+    "year": "2008",
+    "actors": [
+      "Jillian Michaels"
+    ],
+    "writers": [],
+    "genre": "Documentary",
+    "medium": "DVD",
+    "cover": "thumbs/tmdb-287332.jpg",
     "needsReview": ""
   }
 ]
