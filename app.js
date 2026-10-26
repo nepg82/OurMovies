@@ -251,6 +251,8 @@ function showEditForm(m) {
       <textarea id="eActors" rows="3">${escapeHtml((m.actors || []).join(', '))}</textarea></div>
     <div class="field"><label for="eWriters">Writers (one per line, Job: Name)</label>
       <textarea id="eWriters" rows="3">${escapeHtml((m.writers || []).map(w => `${w.job}: ${w.name}`).join('\n'))}</textarea></div>
+    <div class="field"><label for="eCover">Replace cover (optional)</label>
+      <input type="file" id="eCover" accept="image/*"></div>
     <div class="sheet-error" id="eError"></div>
     <div class="sheet-actions">
       <button class="btn" id="eSave">Save</button>
@@ -289,8 +291,18 @@ function showEditForm(m) {
       const cur = m[k] == null ? (Array.isArray(next[k]) ? [] : '') : m[k];
       if (JSON.stringify(cur) !== JSON.stringify(next[k])) changes[k] = next[k];
     }
+    let cover;
+    const file = $('eCover').files[0];
+    if (file) {
+      try {
+        const blob = await resizeToJpeg(file);
+        const path = `thumbs/${slugify(String(m.id))}-${Date.now().toString(36)}.jpg`;
+        changes.cover = path;
+        cover = { path, blob };
+      } catch (err) { $('eError').textContent = err.message; return; }
+    }
     if (!Object.keys(changes).length) return closeDetail();
-    await queueOp({ type: 'edit', uid: m.uid, changes });
+    await queueOp({ type: 'edit', uid: m.uid, changes }, cover);
     closeDetail();
   };
 }
