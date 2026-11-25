@@ -10508,7 +10508,8 @@
         "name": "Robert Ludlum"
       }
     ],
-    "uid": "tt0258463~0"
+    "uid": "tt0258463~0",
+    "customSort": "Bourne 2002"
   },
   {
     "id": "tt1194173",
@@ -10550,7 +10551,8 @@
         "name": "Robert Ludlum"
       }
     ],
-    "uid": "tt1194173~0"
+    "uid": "tt1194173~0",
+    "customSort": "Bourne 2012"
   },
   {
     "id": "tt1194173",
@@ -10592,7 +10594,8 @@
         "name": "Robert Ludlum"
       }
     ],
-    "uid": "tt1194173~1"
+    "uid": "tt1194173~1",
+    "customSort": "Bourne 2012"
   },
   {
     "id": "tt0372183",
@@ -10626,7 +10629,8 @@
         "name": "Robert Ludlum"
       }
     ],
-    "uid": "tt0372183~0"
+    "uid": "tt0372183~0",
+    "customSort": "Bourne 2004"
   },
   {
     "id": "tt0000000",
@@ -10640,7 +10644,8 @@
     "cover": "thumbs/tt0000000-mww2ta9d.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~16"
+    "uid": "tt0000000~16",
+    "customSort": "Bourne 2008"
   },
   {
     "id": "tt0440963",
@@ -10682,7 +10687,8 @@
         "name": "Robert Ludlum"
       }
     ],
-    "uid": "tt0440963~0"
+    "uid": "tt0440963~0",
+    "customSort": "Bourne 2007"
   },
   {
     "id": "tt0914798",
@@ -36677,7 +36683,7 @@
     "actors": [],
     "genre": "Horror",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwew2va.jpg",
     "needsReview": "no year; no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~44"
@@ -37826,7 +37832,8 @@
         "name": "George Lucas"
       }
     ],
-    "uid": "tt0367882~0"
+    "uid": "tt0367882~0",
+    "customSort": "Indiana Jones 2008"
   },
   {
     "id": "tt0097576",
@@ -37868,7 +37875,8 @@
         "name": "Philip Kaufman"
       }
     ],
-    "uid": "tt0097576~0"
+    "uid": "tt0097576~0",
+    "customSort": "Indiana Jones 1989"
   },
   {
     "id": "tt0087469",
@@ -37910,7 +37918,8 @@
         "name": "George Lucas"
       }
     ],
-    "uid": "tt0087469~0"
+    "uid": "tt0087469~0",
+    "customSort": "Indiana Jones 1984"
   },
   {
     "id": "local-indiana-jones-the-complete-adventure-collection-",
@@ -37921,7 +37930,7 @@
     "actors": [],
     "genre": "Action",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/local-indiana-jones-the-complete-adventure-collection-mwwexsva.jpg",
     "needsReview": "no IMDb ID; no year; no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "local-indiana-jones-the-complete-adventure-collection-~0"
@@ -39523,7 +39532,8 @@
         "name": "Robert Ludlum"
       }
     ],
-    "uid": "tt4196776~0"
+    "uid": "tt4196776~0",
+    "customSort": "Bourne 2016"
   },
   {
     "id": "tt4196776",
@@ -39561,7 +39571,8 @@
         "name": "Robert Ludlum"
       }
     ],
-    "uid": "tt4196776~1"
+    "uid": "tt4196776~1",
+    "customSort": "Bourne 2016"
   },
   {
     "id": "tt0073195",
@@ -39610,7 +39621,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwf1m2a.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~45"
@@ -39748,7 +39759,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwf208j.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~46"
@@ -39963,7 +39974,7 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0472027-mwwf2ebe.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0472027~0"
@@ -40156,8 +40167,8 @@
   },
   {
     "id": "tt4425200",
-    "title": "John Wick: Chapter 2",
-    "sortTitle": "John Wick: Chapter 2",
+    "title": "John Wick 2",
+    "sortTitle": "John Wick 2",
     "director": "Chad Stahelski",
     "year": "2017",
     "actors": [
@@ -40566,7 +40577,7 @@
     ],
     "genre": "Action",
     "medium": "DVD",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mwwf6a8g.jpg",
     "needsReview": "no year; no director; no actors; matched by title search, not IMDb ID — verify; backfilled from TMDB: director, actors, year — verify",
     "writers": [],
     "uid": "tt0000000~49"
@@ -40886,7 +40897,7 @@
       }
     ],
     "uid": "tt0107290~0",
-    "customSort": "Jurassic 1"
+    "customSort": "Jurassic 1993"
   },
   {
     "id": "tt0163025",
@@ -40929,7 +40940,7 @@
       }
     ],
     "uid": "tt0163025~0",
-    "customSort": "Jurassic 3"
+    "customSort": "Jurassic 2001"
   },
   {
     "id": "tt0000000",
@@ -40940,11 +40951,11 @@
     "actors": [],
     "genre": "",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwf6tjq.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~50",
-    "customSort": "Jurassic 0"
+    "customSort": "Jurassic 2002"
   },
   {
     "id": "tt0369610",
@@ -40987,7 +40998,7 @@
       }
     ],
     "uid": "tt0369610~0",
-    "customSort": "Jurassic 4"
+    "customSort": "Jurassic 2015"
   },
   {
     "id": "tt8041270",
@@ -41030,7 +41041,7 @@
       }
     ],
     "uid": "tt8041270~0",
-    "customSort": "Jurassic 6"
+    "customSort": "Jurassic 2022"
   },
   {
     "id": "tt4881806",
@@ -41069,7 +41080,7 @@
       }
     ],
     "uid": "tt4881806~0",
-    "customSort": "Jurassic 5"
+    "customSort": "Jurassic 2018"
   },
   {
     "id": "tt4881806",
@@ -41108,7 +41119,7 @@
       }
     ],
     "uid": "tt4881806~1",
-    "customSort": "Jurassic 5"
+    "customSort": "Jurassic 2018"
   },
   {
     "id": "tt0113501",
@@ -45922,7 +45933,8 @@
         "name": "J. R. R. Tolkien"
       }
     ],
-    "uid": "tt0120737~0"
+    "uid": "tt0120737~0",
+    "customSort": "LOTR 1"
   },
   {
     "id": "tt0120737",
@@ -45964,7 +45976,8 @@
         "name": "J. R. R. Tolkien"
       }
     ],
-    "uid": "tt0120737~1"
+    "uid": "tt0120737~1",
+    "customSort": "LOTR 1"
   },
   {
     "id": "tt0167260",
@@ -46006,7 +46019,8 @@
         "name": "J. R. R. Tolkien"
       }
     ],
-    "uid": "tt0167260~0"
+    "uid": "tt0167260~0",
+    "customSort": "LOTR 3"
   },
   {
     "id": "tt0167260",
@@ -46048,7 +46062,8 @@
         "name": "J. R. R. Tolkien"
       }
     ],
-    "uid": "tt0167260~1"
+    "uid": "tt0167260~1",
+    "customSort": "LOTR 3"
   },
   {
     "id": "tt0167261",
@@ -46090,7 +46105,8 @@
         "name": "Fran Walsh"
       }
     ],
-    "uid": "tt0167261~0"
+    "uid": "tt0167261~0",
+    "customSort": "LOTR 2"
   },
   {
     "id": "tt0167261",
@@ -46132,7 +46148,8 @@
         "name": "Fran Walsh"
       }
     ],
-    "uid": "tt0167261~1"
+    "uid": "tt0167261~1",
+    "customSort": "LOTR 2"
   },
   {
     "id": "tt0399295",
@@ -46417,7 +46434,7 @@
       }
     ],
     "uid": "tt0119567~0",
-    "customSort": "Jurassic 2"
+    "customSort": "Jurassic 1997"
   },
   {
     "id": "tt0758752",
@@ -60535,7 +60552,8 @@
         "name": "Philip Kaufman"
       }
     ],
-    "uid": "tt0082971~0"
+    "uid": "tt0082971~0",
+    "customSort": "Indiana Jones 1981"
   },
   {
     "id": "tt0119978",
