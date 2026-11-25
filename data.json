@@ -4378,7 +4378,7 @@
     "sortTitle": "Angel Has Fallen",
     "director": "Ric Roman Waugh",
     "year": "2019",
-    "customSort": "Olympus Has Fallen 3",
+    "customSort": "Olympus 3",
     "actors": [
       "Gerard Butler",
       "Frederick Schmidt",
@@ -45548,7 +45548,7 @@
     "sortTitle": "London Has Fallen",
     "director": "Babak Najafi",
     "year": "2016",
-    "customSort": "Olympus Has Fallen 2",
+    "customSort": "Olympus 2",
     "actors": [
       "Alon Aboutboul",
       "Waleed Zuaiter",
@@ -47927,7 +47927,7 @@
     ],
     "genre": "Adventure",
     "medium": "DVD",
-    "cover": "thumbs/tt3659388.jpg",
+    "cover": "thumbs/tt3659388-mwwrccxe.jpg",
     "needsReview": "",
     "writers": [
       {
@@ -47965,7 +47965,7 @@
     ],
     "genre": "Adventure",
     "medium": "Blu-ray",
-    "cover": "thumbs/tt3659388.jpg",
+    "cover": "thumbs/tt3659388-mwwrc5x4.jpg",
     "needsReview": "",
     "writers": [
       {
@@ -51054,7 +51054,7 @@
     ],
     "genre": "Comedy",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt1422182-mwwrfvdv.jpg",
     "needsReview": "no director; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt1422182~0"
@@ -51223,7 +51223,7 @@
     "actors": [],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwrgap4.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~63"
@@ -51845,7 +51845,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwrh2tj.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~64"
@@ -52467,7 +52467,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwri18f.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~65"
@@ -53760,7 +53760,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwrj3ar.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~66"
@@ -54302,7 +54302,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwrjnyi.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~67"
@@ -54907,7 +54907,7 @@
     "sortTitle": "Olympus Has Fallen",
     "director": "Antoine Fuqua",
     "year": "2013",
-    "customSort": "Olympus Has Fallen 1",
+    "customSort": "Olympus 1",
     "actors": [
       "Gerard Butler",
       "Aaron Eckhart",
@@ -55179,7 +55179,7 @@
     "actors": [],
     "genre": "Adventure",
     "medium": "DVD",
-    "cover": "thumbs/tt0424327.jpg",
+    "cover": "thumbs/tt0424327-mwwrlzld.jpg",
     "needsReview": "no actors",
     "writers": [],
     "uid": "tt0424327~0"
@@ -55204,7 +55204,7 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0368530-mwwrlhm5.jpg",
     "needsReview": "no director; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0368530~0"
@@ -55424,7 +55424,7 @@
     "actors": [],
     "genre": "Family",
     "medium": "Blu-ray",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mwwrmj45.jpg",
     "needsReview": "no year; no director; no actors; no genre; matched by title search, not IMDb ID — verify; backfilled from TMDB: genre, year — verify",
     "writers": [],
     "uid": "tt0000000~68"
@@ -56163,8 +56163,8 @@
   },
   {
     "id": "tt0395699",
-    "title": "Pacifier, The",
-    "sortTitle": "Pacifier, The",
+    "title": "The Pacifier",
+    "sortTitle": "Pacifier",
     "director": "Adam Shankman",
     "year": "2005",
     "actors": [
@@ -57453,7 +57453,7 @@
     ],
     "genre": "Comedy",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0056780-mwwro74b.jpg",
     "needsReview": "no director; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0056780~0"
@@ -57531,7 +57531,7 @@
     "actors": [],
     "genre": "Horror",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwrom0v.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~69"
@@ -57654,7 +57654,7 @@
     ],
     "genre": "Animation",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0852863-mwwrp4a9.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0852863~0"
@@ -57679,7 +57679,7 @@
     ],
     "genre": "Animation",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0852863-mwwrpjds.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0852863~1"
@@ -58272,8 +58272,8 @@
   },
   {
     "id": "tt2848292",
-    "title": "Pitch Perfect 02",
-    "sortTitle": "Pitch Perfect 02",
+    "title": "Pitch Perfect 2",
+    "sortTitle": "Pitch Perfect 2",
     "director": "Elizabeth Banks",
     "year": "2015",
     "actors": [
@@ -58503,7 +58503,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwrqluj.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~70"
@@ -59089,7 +59089,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwrr65i.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~71"
@@ -59326,7 +59326,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwrrmod.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~72"
@@ -59454,7 +59454,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwrs3sl.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~73"
@@ -59835,7 +59835,7 @@
     ],
     "genre": "Action",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0455275-mwwrtfrw.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0455275~0"
@@ -59860,15 +59860,15 @@
     ],
     "genre": "Adventure",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0455275-mwwrtmf8.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0455275~1"
   },
   {
     "id": "tt0455275",
-    "title": "Prison Break: Season One",
-    "sortTitle": "Prison Break: Season One",
+    "title": "Prison Break: Season 1",
+    "sortTitle": "Prison Break: Season 1",
     "director": "Bobby Roth",
     "year": "2005",
     "actors": [
@@ -59885,7 +59885,7 @@
     ],
     "genre": "Crime",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0455275-mwwrt6yb.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0455275~2"
@@ -60103,7 +60103,7 @@
     "actors": [],
     "genre": "Horror",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwru20c.jpg",
     "needsReview": "no year; no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~74"
