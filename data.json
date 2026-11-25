@@ -20241,7 +20241,8 @@
         "name": "Roderick Thorp"
       }
     ],
-    "uid": "tt0095016~0"
+    "uid": "tt0095016~0",
+    "customSort": "Die Hard 1988"
   },
   {
     "id": "tt1578275",
@@ -31066,7 +31067,8 @@
         "name": "Roderick Thorp"
       }
     ],
-    "uid": "tt1606378~0"
+    "uid": "tt1606378~0",
+    "customSort": "Die Hard 2013"
   },
   {
     "id": "tt0343737",
@@ -41631,7 +41633,7 @@
     "actors": [],
     "genre": "",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwf99ni.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~51"
@@ -42787,7 +42789,7 @@
     "actors": [],
     "genre": "Action",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwfa61o.jpg",
     "needsReview": "no year; no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~52"
@@ -43540,7 +43542,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwfaxto.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~53"
@@ -43822,7 +43824,7 @@
     ],
     "genre": "Comedy",
     "medium": "DVD",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mwwfbhje.jpg",
     "needsReview": "no year; no director; no actors; matched by title search, not IMDb ID — verify; backfilled from TMDB: director, actors, year — verify",
     "writers": [],
     "uid": "tt0000000~54"
@@ -44504,7 +44506,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwfcmzz.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~55"
@@ -45427,7 +45429,8 @@
         "name": "Roderick Thorp"
       }
     ],
-    "uid": "tt0337978~0"
+    "uid": "tt0337978~0",
+    "customSort": "Die Hard 2007"
   },
   {
     "id": "tt0120735",
@@ -45682,7 +45685,7 @@
     ],
     "genre": "Western",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0096639-mwwfdy1z.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0096639~0"
@@ -45707,7 +45710,7 @@
     ],
     "genre": "Western",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0096639-mwwfe8ax.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0096639~1"
@@ -45732,7 +45735,7 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0959858-mwwfeis8.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0959858~0"
@@ -45756,7 +45759,7 @@
     ],
     "genre": "Adventure",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0403778-mwwfetzi.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0403778~0"
@@ -46547,7 +46550,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/local-luciano-pavarotti-the-event-live-sanctuary-records-mwwfgird.jpg",
     "needsReview": "no IMDb ID; no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "local-luciano-pavarotti-the-event-live-sanctuary-records-~0"
