@@ -46791,7 +46791,8 @@
         "name": "Bruce Geller"
       }
     ],
-    "uid": "tt0317919~0"
+    "uid": "tt0317919~0",
+    "customSort": "Mission 2006"
   },
   {
     "id": "tt0985694",
@@ -47102,7 +47103,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwfjmbk.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~56"
@@ -47414,7 +47415,7 @@
     "actors": [],
     "genre": "Action",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwfkf8b.jpg",
     "needsReview": "no year; no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~58"
@@ -48064,7 +48065,7 @@
     "actors": [],
     "genre": "",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwfl1aq.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~59"
@@ -48193,8 +48194,8 @@
   },
   {
     "id": "tt0110475",
-    "title": "Mask, The",
-    "sortTitle": "Mask, The",
+    "title": "The Mask",
+    "sortTitle": "Mask",
     "director": "Chuck Russell",
     "year": "1994",
     "actors": [
@@ -48329,7 +48330,8 @@
         "name": "Lilly Wachowski"
       }
     ],
-    "uid": "tt0133093~0"
+    "uid": "tt0133093~0",
+    "customSort": "Matrix 1"
   },
   {
     "id": "tt0234215",
@@ -48371,7 +48373,8 @@
         "name": "Lilly Wachowski"
       }
     ],
-    "uid": "tt0234215~0"
+    "uid": "tt0234215~0",
+    "customSort": "Matrix 2"
   },
   {
     "id": "tt10838180",
@@ -48413,7 +48416,8 @@
         "name": "Lana Wachowski"
       }
     ],
-    "uid": "tt10838180~0"
+    "uid": "tt10838180~0",
+    "customSort": "Matrix 4"
   },
   {
     "id": "tt0000000",
@@ -48435,10 +48439,11 @@
     ],
     "genre": "Action",
     "medium": "DVD",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mwwfqtfa.jpg",
     "needsReview": "matched by title search, not IMDb ID — verify",
     "writers": [],
-    "uid": "tt0000000~60"
+    "uid": "tt0000000~60",
+    "customSort": "Matrix 3"
   },
   {
     "id": "tt0242653",
@@ -48480,7 +48485,8 @@
         "name": "Lana Wachowski"
       }
     ],
-    "uid": "tt0242653~0"
+    "uid": "tt0242653~0",
+    "customSort": "Matrix 3"
   },
   {
     "id": "tt0110478",
@@ -48586,7 +48592,8 @@
         "name": "James Dashner"
       }
     ],
-    "uid": "tt1790864~0"
+    "uid": "tt1790864~0",
+    "customSort": "Maze 1"
   },
   {
     "id": "tt4500922",
@@ -48620,7 +48627,8 @@
         "name": "James Dashner"
       }
     ],
-    "uid": "tt4500922~0"
+    "uid": "tt4500922~0",
+    "customSort": "Maze 3"
   },
   {
     "id": "tt4046784",
@@ -48654,7 +48662,8 @@
         "name": "James Dashner"
       }
     ],
-    "uid": "tt4046784~0"
+    "uid": "tt4046784~0",
+    "customSort": "Maze 2"
   },
   {
     "id": "tt2674426",
@@ -48782,7 +48791,7 @@
     ],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0412175-mwwfsb1b.jpg",
     "needsReview": "no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0412175~0"
@@ -49089,7 +49098,8 @@
         "name": "Ed Solomon"
       }
     ],
-    "uid": "tt0119654~0"
+    "uid": "tt0119654~0",
+    "customSort": "MIB 1"
   },
   {
     "id": "tt0119654",
@@ -49127,7 +49137,8 @@
         "name": "Ed Solomon"
       }
     ],
-    "uid": "tt0119654~1"
+    "uid": "tt0119654~1",
+    "customSort": "MIB 1"
   },
   {
     "id": "tt1409024",
@@ -49165,7 +49176,8 @@
         "name": "Stanley D. Williams"
       }
     ],
-    "uid": "tt1409024~0"
+    "uid": "tt1409024~0",
+    "customSort": "MIB 3"
   },
   {
     "id": "tt1409024",
@@ -49203,7 +49215,8 @@
         "name": "Stanley D. Williams"
       }
     ],
-    "uid": "tt1409024~1"
+    "uid": "tt1409024~1",
+    "customSort": "MIB 3"
   },
   {
     "id": "tt0120912",
@@ -49245,7 +49258,8 @@
         "name": "Lowell Cunningham"
       }
     ],
-    "uid": "tt0120912~0"
+    "uid": "tt0120912~0",
+    "customSort": "MIB 2"
   },
   {
     "id": "tt0120912",
@@ -49287,7 +49301,8 @@
         "name": "Lowell Cunningham"
       }
     ],
-    "uid": "tt0120912~1"
+    "uid": "tt0120912~1",
+    "customSort": "MIB 2"
   },
   {
     "id": "tt2283336",
@@ -49329,7 +49344,8 @@
         "name": "Lowell Cunningham"
       }
     ],
-    "uid": "tt2283336~0"
+    "uid": "tt2283336~0",
+    "customSort": "MIB 4"
   },
   {
     "id": "tt0203019",
@@ -49600,7 +49616,7 @@
     "actors": [],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwfvcyp.jpg",
     "needsReview": "no year; no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~61"
@@ -50092,7 +50108,7 @@
     ],
     "genre": "Action",
     "medium": "Blu-ray",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mwwfvwtj.jpg",
     "needsReview": "no year; no director; no actors; no genre; matched by title search, not IMDb ID — verify; backfilled from TMDB: director, actors, genre, year — verify",
     "writers": [],
     "uid": "tt0000000~62"
@@ -50179,7 +50195,8 @@
         "name": "David Koepp"
       }
     ],
-    "uid": "tt0117060~0"
+    "uid": "tt0117060~0",
+    "customSort": "Mission 1996"
   },
   {
     "id": "tt0120755",
@@ -50221,7 +50238,8 @@
         "name": "Bruce Geller"
       }
     ],
-    "uid": "tt0120755~0"
+    "uid": "tt0120755~0",
+    "customSort": "Mission 2000"
   },
   {
     "id": "tt0120755",
@@ -50263,7 +50281,8 @@
         "name": "Bruce Geller"
       }
     ],
-    "uid": "tt0120755~1"
+    "uid": "tt0120755~1",
+    "customSort": "Mission 2000"
   },
   {
     "id": "tt4912910",
@@ -50297,7 +50316,8 @@
         "name": "Bruce Geller"
       }
     ],
-    "uid": "tt4912910~0"
+    "uid": "tt4912910~0",
+    "customSort": "Mission 2018"
   },
   {
     "id": "tt1229238",
@@ -50335,7 +50355,8 @@
         "name": "Bruce Geller"
       }
     ],
-    "uid": "tt1229238~0"
+    "uid": "tt1229238~0",
+    "customSort": "Mission 2011"
   },
   {
     "id": "tt2381249",
@@ -50377,7 +50398,8 @@
         "name": "Bruce Geller"
       }
     ],
-    "uid": "tt2381249~0"
+    "uid": "tt2381249~0",
+    "customSort": "Mission 2015"
   },
   {
     "id": "tt0884328",
