@@ -88,9 +88,10 @@ function renderMovies(query) {
   const mediaVal = filterMedia.value;
   const genreVal = filterGenre.value;
 
-  // Search matches the real title and any pack contents, never customSort.
+  // Search matches the real title, the custom sort field, and any pack contents.
   const list = MOVIES.filter(m => {
     const matchesQuery = !query || (m.title || '').toLowerCase().includes(query)
+      || (m.customSort || '').toLowerCase().includes(query)
       || (m.contents || []).some(t => t.toLowerCase().includes(query));
 	const matchesMedia = !mediaVal || m.medium === mediaVal;
     const matchesGenre = !genreVal || m.genre === genreVal;
