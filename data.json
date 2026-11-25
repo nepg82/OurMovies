@@ -60356,7 +60356,7 @@
     ],
     "genre": "Crime",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwrw0xl.jpg",
     "needsReview": "no year; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~75"
@@ -60429,7 +60429,8 @@
         "name": "Scott Beck"
       }
     ],
-    "uid": "tt6644200~0"
+    "uid": "tt6644200~0",
+    "customSort": "Quiet 1"
   },
   {
     "id": "tt13433802",
@@ -60471,7 +60472,8 @@
         "name": "Scott Beck"
       }
     ],
-    "uid": "tt13433802~0"
+    "uid": "tt13433802~0",
+    "customSort": "Quiet 3"
   },
   {
     "id": "tt8332922",
@@ -60509,7 +60511,8 @@
         "name": "Scott Beck"
       }
     ],
-    "uid": "tt8332922~0"
+    "uid": "tt8332922~0",
+    "customSort": "Quiet 2"
   },
   {
     "id": "tt0102744",
@@ -61403,7 +61406,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/local-reggie-dabbs-live-in-the-city-dvd-mwwrxdzp.jpg",
     "needsReview": "no IMDb ID; no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "local-reggie-dabbs-live-in-the-city-dvd-~0"
@@ -61734,7 +61737,7 @@
     ],
     "genre": "Crime",
     "medium": "DVD",
-    "cover": "thumbs/tt0105236.jpg",
+    "cover": "thumbs/tt0105236-mwwry0np.jpg",
     "needsReview": "",
     "writers": [
       {
@@ -61776,7 +61779,8 @@
         "name": "Shinji Mikami"
       }
     ],
-    "uid": "tt0120804~0"
+    "uid": "tt0120804~0",
+    "customSort": "Resident 2002"
   },
   {
     "id": "tt1220634",
@@ -61806,7 +61810,8 @@
         "name": "Paul W. S. Anderson"
       }
     ],
-    "uid": "tt1220634~0"
+    "uid": "tt1220634~0",
+    "customSort": "Resident 2010"
   },
   {
     "id": "tt0318627",
@@ -61844,7 +61849,8 @@
         "name": "Monica Sandstede"
       }
     ],
-    "uid": "tt0318627~0"
+    "uid": "tt0318627~0",
+    "customSort": "Resident 2004"
   },
   {
     "id": "tt0432021",
@@ -61874,7 +61880,8 @@
         "name": "Paul W. S. Anderson"
       }
     ],
-    "uid": "tt0432021~0"
+    "uid": "tt0432021~0",
+    "customSort": "Resident 2007"
   },
   {
     "id": "tt1855325",
@@ -61904,7 +61911,8 @@
         "name": "Paul W. S. Anderson"
       }
     ],
-    "uid": "tt1855325~0"
+    "uid": "tt1855325~0",
+    "customSort": "Resident 2012"
   },
   {
     "id": "tt2592614",
@@ -61934,7 +61942,8 @@
         "name": "Paul W. S. Anderson"
       }
     ],
-    "uid": "tt2592614~0"
+    "uid": "tt2592614~0",
+    "customSort": "Resident 2016"
   },
   {
     "id": "tt0122459",
@@ -62267,7 +62276,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwws0oqq.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~76"
@@ -62979,7 +62988,7 @@
     ],
     "genre": "Action",
     "medium": "DVD",
-    "cover": "thumbs/tt0102803.jpg",
+    "cover": "thumbs/tt0102803-mwws1mkb.jpg",
     "needsReview": "",
     "writers": [
       {
@@ -63238,7 +63247,7 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mwws242e.jpg",
     "needsReview": "no year; no director; no actors; no genre; matched by title search, not IMDb ID — verify; backfilled from TMDB: director, actors, genre, year — verify",
     "writers": [],
     "uid": "tt0000000~77"
@@ -63252,7 +63261,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwws2ln9.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~78"
@@ -63404,7 +63413,7 @@
     ],
     "genre": "Horror",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0259153-mwws32su.jpg",
     "needsReview": "matched by title search, not IMDb ID — verify; no cover art available",
     "writers": [],
     "uid": "tt0259153~0"
