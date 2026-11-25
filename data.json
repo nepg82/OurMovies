@@ -3057,7 +3057,7 @@
     "actors": [],
     "genre": "",
     "medium": "Blu-ray",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mww2fd9i.jpg",
     "needsReview": "no year; no director; no actors; no genre; matched by title search, not IMDb ID — verify; backfilled from TMDB: year — verify",
     "writers": [],
     "uid": "tt0000000~7"
@@ -3071,7 +3071,7 @@
     "actors": [],
     "genre": "Other",
     "medium": "Blu-ray",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mww2hgau.jpg",
     "needsReview": "no actors; matched by title search, not IMDb ID — verify",
     "writers": [],
     "uid": "tt0000000~8"
@@ -3955,7 +3955,7 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mww2kgd1.jpg",
     "needsReview": "no year; no director; no actors; no genre; matched by title search, not IMDb ID — verify; backfilled from TMDB: director, actors, genre, year — verify",
     "writers": [],
     "uid": "tt0000000~9"
@@ -4702,7 +4702,7 @@
       }
     ],
     "uid": "tt0478970~0",
-    "customSort": "MCU 14"
+    "customSort": "MCU 2015"
   },
   {
     "id": "tt5095030",
@@ -4745,7 +4745,7 @@
       }
     ],
     "uid": "tt5095030~0",
-    "customSort": "MCU 21"
+    "customSort": "MCU 2018"
   },
   {
     "id": "tt0218817",
@@ -4939,7 +4939,8 @@
         "name": "Geoff Johns"
       }
     ],
-    "uid": "tt1477834~0"
+    "uid": "tt1477834~0",
+    "customSort": "DC 2018"
   },
   {
     "id": "tt0099052",
@@ -5926,7 +5927,7 @@
       }
     ],
     "uid": "tt0848228~0",
-    "customSort": "MCU 7"
+    "customSort": "MCU 2012"
   },
   {
     "id": "tt2395427",
@@ -5969,7 +5970,7 @@
       }
     ],
     "uid": "tt2395427~0",
-    "customSort": "MCU 13"
+    "customSort": "MCU 2015"
   },
   {
     "id": "tt4154796",
@@ -6012,7 +6013,7 @@
       }
     ],
     "uid": "tt4154796~0",
-    "customSort": "MCU 23"
+    "customSort": "MCU 2019"
   },
   {
     "id": "tt4154756",
@@ -6055,7 +6056,7 @@
       }
     ],
     "uid": "tt4154756~0",
-    "customSort": "MCU 22"
+    "customSort": "MCU 2018"
   },
   {
     "id": "tt0338751",
@@ -6552,7 +6553,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww2mgmi.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~10"
@@ -6642,7 +6643,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww2mwqz.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~11"
@@ -7251,7 +7252,8 @@
         "name": "Bob Kane"
       }
     ],
-    "uid": "tt0096895~0"
+    "uid": "tt0096895~0",
+    "customSort": "Batman 1989"
   },
   {
     "id": "tt0096895",
@@ -7293,7 +7295,8 @@
         "name": "Bob Kane"
       }
     ],
-    "uid": "tt0096895~1"
+    "uid": "tt0096895~1",
+    "customSort": "Batman 1989"
   },
   {
     "id": "tt1877830",
@@ -7335,7 +7338,8 @@
         "name": "Bob Kane"
       }
     ],
-    "uid": "tt1877830~0"
+    "uid": "tt1877830~0",
+    "customSort": "Batman 2022"
   },
   {
     "id": "tt0118688",
@@ -7369,7 +7373,8 @@
         "name": "Bob Kane"
       }
     ],
-    "uid": "tt0118688~0"
+    "uid": "tt0118688~0",
+    "customSort": "Batman 1997"
   },
   {
     "id": "tt0372784",
@@ -7407,7 +7412,8 @@
         "name": "Bob Kane"
       }
     ],
-    "uid": "tt0372784~0"
+    "uid": "tt0372784~0",
+    "customSort": "Batman 2005"
   },
   {
     "id": "tt0000000",
@@ -7418,10 +7424,11 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww2o13j.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~12"
+    "uid": "tt0000000~12",
+    "customSort": "Batman 1989"
   },
   {
     "id": "tt0112462",
@@ -7463,7 +7470,8 @@
         "name": "Lee Batchler"
       }
     ],
-    "uid": "tt0112462~0"
+    "uid": "tt0112462~0",
+    "customSort": "Batman 1995"
   },
   {
     "id": "tt0103776",
@@ -7505,7 +7513,8 @@
         "name": "Bob Kane"
       }
     ],
-    "uid": "tt0103776~0"
+    "uid": "tt0103776~0",
+    "customSort": "Batman 1992"
   },
   {
     "id": "tt2975590",
@@ -7547,7 +7556,8 @@
         "name": "Bob Kane"
       }
     ],
-    "uid": "tt2975590~0"
+    "uid": "tt2975590~0",
+    "customSort": "DC 2016"
   },
   {
     "id": "tt0092494",
@@ -8291,7 +8301,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/local-beyond-obsession-death-sentence-the-firing-line-mww2pgn4.jpg",
     "needsReview": "no IMDb ID; no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "local-beyond-obsession-death-sentence-the-firing-line-~0"
@@ -8849,7 +8859,7 @@
     ],
     "genre": "Comedy",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww2q7a1.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~13"
@@ -8933,7 +8943,7 @@
       }
     ],
     "uid": "tt1825683~0",
-    "customSort": "MCU 17"
+    "customSort": "MCU 2018"
   },
   {
     "id": "tt0947798",
@@ -9104,7 +9114,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww2roc8.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~14"
@@ -9244,7 +9254,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww2s6sl.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~15"
@@ -10627,7 +10637,7 @@
     "actors": [],
     "genre": "",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww2ta9d.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~16"
@@ -11096,7 +11106,7 @@
     ],
     "genre": "Crime",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0903747-mww2uhbu.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0903747~0"
@@ -11112,7 +11122,7 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt1206290-mww2wche.jpg",
     "needsReview": "no cover art available",
     "writers": [],
     "uid": "tt1206290~0"
@@ -11988,7 +11998,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww2y67z.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~17"
@@ -12513,7 +12523,7 @@
       }
     ],
     "uid": "tt3498820~0",
-    "customSort": "MCU 15"
+    "customSort": "MCU 2016"
   },
   {
     "id": "tt0458339",
@@ -12556,7 +12566,7 @@
       }
     ],
     "uid": "tt0458339~0",
-    "customSort": "MCU 1"
+    "customSort": "MCU 2011"
   },
   {
     "id": "tt1843866",
@@ -12599,7 +12609,7 @@
       }
     ],
     "uid": "tt1843866~0",
-    "customSort": "MCU 10"
+    "customSort": "MCU 2014"
   },
   {
     "id": "tt1843866",
@@ -12642,7 +12652,7 @@
       }
     ],
     "uid": "tt1843866~1",
-    "customSort": "MCU 10"
+    "customSort": "MCU 2014"
   },
   {
     "id": "tt4154664",
@@ -12685,7 +12695,7 @@
       }
     ],
     "uid": "tt4154664~0",
-    "customSort": "MCU 2"
+    "customSort": "MCU 2019"
   },
   {
     "id": "tt0374563",
@@ -13677,7 +13687,7 @@
     "actors": [],
     "genre": "Comedy",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww30h8g.jpg",
     "needsReview": "no year; no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~18"
@@ -14087,7 +14097,7 @@
     "actors": [],
     "genre": "Horror",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww31yif.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~19"
@@ -14275,10 +14285,11 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt9471404-mww34he7.jpg",
     "needsReview": "no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt9471404~0"
+    "uid": "tt9471404~0",
+    "customSort": "Chosen 2"
   },
   {
     "id": "tt5622316",
@@ -14300,10 +14311,11 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt5622316-mww369wu.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt5622316~0"
+    "uid": "tt5622316~0",
+    "customSort": "Chosen 5"
   },
   {
     "id": "tt9471404",
@@ -14325,10 +14337,11 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/tt9471404.jpg",
+    "cover": "thumbs/tt9471404-mww35r26.jpg",
     "needsReview": "matched by title search, not IMDb ID — verify",
     "writers": [],
-    "uid": "tt9471404~1"
+    "uid": "tt9471404~1",
+    "customSort": "Chosen 4"
   },
   {
     "id": "tt9471404",
@@ -14350,10 +14363,11 @@
     ],
     "genre": "Special Interest",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt9471404-mww33c6d.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt9471404~2"
+    "uid": "tt9471404~2",
+    "customSort": "Chosen 1"
   },
   {
     "id": "tt9471404",
@@ -14375,10 +14389,11 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/tt9471404.jpg",
+    "cover": "thumbs/tt9471404-mww356en.jpg",
     "needsReview": "no director; no actors; matched by title search, not IMDb ID — verify; backfilled from TMDB: director, actors — verify",
     "writers": [],
-    "uid": "tt9471404~3"
+    "uid": "tt9471404~3",
+    "customSort": "Chosen 3"
   },
   {
     "id": "tt0044008",
@@ -14713,7 +14728,7 @@
     "actors": [],
     "genre": "Comedy",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww37kim.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~20"
@@ -14887,7 +14902,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww8yipj.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~21"
@@ -14969,7 +14984,7 @@
     "actors": [],
     "genre": "",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww8z5dq.jpg",
     "needsReview": "no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~22"
@@ -15320,10 +15335,11 @@
     ],
     "genre": "Crime",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0458253-mww93njg.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0458253~0"
+    "uid": "tt0458253~0",
+    "customSort": "Closer 5"
   },
   {
     "id": "tt0458253",
@@ -15345,10 +15361,11 @@
     ],
     "genre": "Crime",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0458253-mww8zyng.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0458253~1"
+    "uid": "tt0458253~1",
+    "customSort": "Closer 1"
   },
   {
     "id": "tt0458253",
@@ -15370,10 +15387,11 @@
     ],
     "genre": "Crime",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0458253-mww9380v.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0458253~2"
+    "uid": "tt0458253~2",
+    "customSort": "Closer 4"
   },
   {
     "id": "tt0458253",
@@ -15395,10 +15413,11 @@
     ],
     "genre": "Crime",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0458253-mww90yv4.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0458253~3"
+    "uid": "tt0458253~3",
+    "customSort": "Closer 2"
   },
   {
     "id": "tt0458253",
@@ -15420,10 +15439,11 @@
     ],
     "genre": "Crime",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0458253-mww94apv.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0458253~4"
+    "uid": "tt0458253~4",
+    "customSort": "Closer 7"
   },
   {
     "id": "tt0458253",
@@ -15445,10 +15465,11 @@
     ],
     "genre": "Crime",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0458253-mww93y6i.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0458253~5"
+    "uid": "tt0458253~5",
+    "customSort": "Closer 6"
   },
   {
     "id": "tt0458253",
@@ -15470,10 +15491,11 @@
     ],
     "genre": "Crime",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0458253-mww92w6h.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0458253~6"
+    "uid": "tt0458253~6",
+    "customSort": "Closer 3"
   },
   {
     "id": "tt0844471",
@@ -15802,7 +15824,7 @@
     ],
     "genre": "Action",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww94sxh.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~23"
@@ -17409,7 +17431,7 @@
     ],
     "genre": "Action",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww95okb.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~24"
@@ -18024,7 +18046,8 @@
         "name": "Christopher Nolan"
       }
     ],
-    "uid": "tt0468569~0"
+    "uid": "tt0468569~0",
+    "customSort": "Batman 2008"
   },
   {
     "id": "tt0468569",
@@ -18066,7 +18089,8 @@
         "name": "Christopher Nolan"
       }
     ],
-    "uid": "tt0468569~1"
+    "uid": "tt0468569~1",
+    "customSort": "Batman 2008"
   },
   {
     "id": "tt1345836",
@@ -18108,7 +18132,8 @@
         "name": "Christopher Nolan"
       }
     ],
-    "uid": "tt1345836~0"
+    "uid": "tt1345836~0",
+    "customSort": "Batman 2012"
   },
   {
     "id": "tt1345836",
@@ -18150,7 +18175,8 @@
         "name": "Christopher Nolan"
       }
     ],
-    "uid": "tt1345836~1"
+    "uid": "tt1345836~1",
+    "customSort": "Batman 2012"
   },
   {
     "id": "tt0039302",
@@ -18446,7 +18472,8 @@
         "name": "Rick Jaffa"
       }
     ],
-    "uid": "tt2103281~0"
+    "uid": "tt2103281~0",
+    "customSort": "Rise 2014"
   },
   {
     "id": "tt0030044",
@@ -18488,8 +18515,8 @@
   },
   {
     "id": "tt0118300",
-    "title": "Dawson's Creek: The Complete Fifth Season",
-    "sortTitle": "Dawson's Creek: The Complete Fifth Season",
+    "title": "Dawson's Creek: Season 5",
+    "sortTitle": "Dawson's Creek: Season 5",
     "director": "Lev L. Spiro",
     "year": "2001",
     "actors": [
@@ -18506,15 +18533,15 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0118300-mww9mprk.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0118300~0"
   },
   {
     "id": "tt0118300",
-    "title": "Dawson's Creek: The Complete First Season",
-    "sortTitle": "Dawson's Creek: The Complete First Season",
+    "title": "Dawson's Creek: Season 1",
+    "sortTitle": "Dawson's Creek: Season 1",
     "director": "Lev L. Spiro",
     "year": "1998",
     "actors": [
@@ -18531,15 +18558,15 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0118300-mww9n1d4.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0118300~1"
   },
   {
     "id": "tt0118300",
-    "title": "Dawson's Creek: The Complete Fourth Season",
-    "sortTitle": "Dawson's Creek: The Complete Fourth Season",
+    "title": "Dawson's Creek: Season 4",
+    "sortTitle": "Dawson's Creek: Season 4",
     "director": "Lev L. Spiro",
     "year": "2000",
     "actors": [
@@ -18556,15 +18583,15 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0118300-mww9oe0c.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0118300~2"
   },
   {
     "id": "tt0118300",
-    "title": "Dawson's Creek: The Complete Second Season",
-    "sortTitle": "Dawson's Creek: The Complete Second Season",
+    "title": "Dawson's Creek: Season 2",
+    "sortTitle": "Dawson's Creek: Season 2",
     "director": "Lev L. Spiro",
     "year": "1998",
     "actors": [
@@ -18581,15 +18608,15 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0118300-mww9nn93.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0118300~3"
   },
   {
     "id": "tt0118300",
-    "title": "Dawson's Creek: The Complete Sixth Season",
-    "sortTitle": "Dawson's Creek: The Complete Sixth Season",
+    "title": "Dawson's Creek: Season 6",
+    "sortTitle": "Dawson's Creek: Season 6",
     "director": "Lev L. Spiro",
     "year": "2002",
     "actors": [
@@ -18606,15 +18633,15 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0118300-mww9om7w.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0118300~4"
   },
   {
     "id": "tt0118300",
-    "title": "Dawson's Creek: The Complete Third Season",
-    "sortTitle": "Dawson's Creek: The Complete Third Season",
+    "title": "Dawson's Creek: Season 3",
+    "sortTitle": "Dawson's Creek: Season 3",
     "director": "Lev L. Spiro",
     "year": "1999",
     "actors": [
@@ -18631,15 +18658,15 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0118300-mww9o40c.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0118300~5"
   },
   {
     "id": "tt0118300",
-    "title": "Dawson's Creek: The Series Finale",
-    "sortTitle": "Dawson's Creek: The Series Finale",
+    "title": "Dawson's Creek: Series Finale",
+    "sortTitle": "Dawson's Creek: Series Finale",
     "director": "James Whitmore Jr.",
     "year": "2003",
     "actors": [
@@ -18656,7 +18683,7 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0118300-mww9ov5o.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0118300~6"
@@ -19211,7 +19238,7 @@
     "actors": [],
     "genre": "Comedy",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt4182734-mww9pill.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt4182734~0"
@@ -19225,7 +19252,7 @@
     "actors": [],
     "genre": "Comedy",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt1277706-mww9pp2h.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt1277706~0"
@@ -19459,7 +19486,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mww9q2nt.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~25"
@@ -20168,7 +20195,8 @@
         "name": "Ian Fleming"
       }
     ],
-    "uid": "tt0246460~0"
+    "uid": "tt0246460~0",
+    "customSort": "Bond 2002"
   },
   {
     "id": "tt0095016",
@@ -20486,7 +20514,8 @@
         "name": "Veronica Roth"
       }
     ],
-    "uid": "tt1840309~0"
+    "uid": "tt1840309~0",
+    "customSort": "Divergent 2014"
   },
   {
     "id": "tt3410834",
@@ -20528,7 +20557,8 @@
         "name": "Bill Collage"
       }
     ],
-    "uid": "tt3410834~0"
+    "uid": "tt3410834~0",
+    "customSort": "Divergent 2016"
   },
   {
     "id": "tt0101745",
@@ -20612,7 +20642,8 @@
         "name": "Steve Ditko"
       }
     ],
-    "uid": "tt1211837~0"
+    "uid": "tt1211837~0",
+    "customSort": "MCU 2016"
   },
   {
     "id": "tt9419884",
@@ -20650,7 +20681,8 @@
         "name": "Stan Lee"
       }
     ],
-    "uid": "tt9419884~0"
+    "uid": "tt9419884~0",
+    "customSort": "MCU 2022"
   },
   {
     "id": "tt0364725",
@@ -20843,7 +20875,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/local-don-quixote-unk-pro-active-entertainment-mww9v2pk.jpg",
     "needsReview": "no IMDb ID; no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "local-don-quixote-unk-pro-active-entertainment-~0"
@@ -21171,7 +21203,7 @@
     "actors": [],
     "genre": "",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwa04ma.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~26"
@@ -21264,7 +21296,7 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt1606375-mwwa1kwo.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt1606375~0"
@@ -21289,7 +21321,7 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt1606375-mwwa1qc2.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt1606375~1"
@@ -21314,7 +21346,7 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt1606375-mwwa1vdj.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt1606375~2"
@@ -21339,7 +21371,7 @@
     ],
     "genre": "Drama",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt1606375-mwwa22y8.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt1606375~3"
@@ -21364,7 +21396,7 @@
     ],
     "genre": "Drama",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt1606375-mwwa28yw.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt1606375~4"
@@ -21385,7 +21417,7 @@
     ],
     "genre": "Drama",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt1606375-mwwa2eal.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt1606375~5"
@@ -22859,7 +22891,7 @@
     ],
     "genre": "Thriller",
     "medium": "DVD",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mwwa6tpd.jpg",
     "needsReview": "no year; no director; no actors; no genre; matched by title search, not IMDb ID — verify; backfilled from TMDB: director, actors, genre, year — verify",
     "writers": [],
     "uid": "tt0000000~27"
@@ -22963,7 +22995,7 @@
     "actors": [],
     "genre": "Animation",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwa7v5i.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~28"
@@ -22988,7 +23020,7 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0376591-mwwa88iz.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0376591~0"
@@ -32181,7 +32213,8 @@
         "name": "Bill Mantlo"
       }
     ],
-    "uid": "tt2015381~0"
+    "uid": "tt2015381~0",
+    "customSort": "MCU 2014"
   },
   {
     "id": "tt3896198",
@@ -32223,7 +32256,8 @@
         "name": "Steve Englehart"
       }
     ],
-    "uid": "tt3896198~0"
+    "uid": "tt3896198~0",
+    "customSort": "MCU 2017"
   },
   {
     "id": "tt0372237",
@@ -37572,7 +37606,7 @@
       }
     ],
     "uid": "tt0800080~0",
-    "customSort": "MCU 5"
+    "customSort": "MCU 2008"
   },
   {
     "id": "tt0317705",
@@ -38182,7 +38216,8 @@
         "name": "Veronica Roth"
       }
     ],
-    "uid": "tt2908446~0"
+    "uid": "tt2908446~0",
+    "customSort": "Divergent 2015"
   },
   {
     "id": "tt2361509",
@@ -38801,7 +38836,7 @@
       }
     ],
     "uid": "tt0371746~0",
-    "customSort": "MCU 3"
+    "customSort": "MCU 2008"
   },
   {
     "id": "tt1228705",
@@ -38844,7 +38879,7 @@
       }
     ],
     "uid": "tt1228705~0",
-    "customSort": "MCU 4"
+    "customSort": "MCU 2010"
   },
   {
     "id": "tt1300854",
@@ -38887,7 +38922,7 @@
       }
     ],
     "uid": "tt1300854~0",
-    "customSort": "MCU 8"
+    "customSort": "MCU 2013"
   },
   {
     "id": "tt0399201",
@@ -41165,7 +41200,8 @@
         "name": "Chris Terrio"
       }
     ],
-    "uid": "tt0974015~0"
+    "uid": "tt0974015~0",
+    "customSort": "DC 2017"
   },
   {
     "id": "tt0267626",
@@ -47461,7 +47497,8 @@
         "name": "Joe Shuster"
       }
     ],
-    "uid": "tt0770828~0"
+    "uid": "tt0770828~0",
+    "customSort": "DC 2013"
   },
   {
     "id": "tt0331933",
@@ -47948,7 +47985,7 @@
       }
     ],
     "uid": "tt0848228~1",
-    "customSort": "MCU 7"
+    "customSort": "MCU 2012"
   },
   {
     "id": "tt0116999",
@@ -57845,7 +57882,8 @@
         "name": "Jay Wolpert"
       }
     ],
-    "uid": "tt0383574~0"
+    "uid": "tt0383574~0",
+    "customSort": "Pirates 2006"
   },
   {
     "id": "tt0449088",
@@ -57887,7 +57925,8 @@
         "name": "Stuart Beattie"
       }
     ],
-    "uid": "tt0449088~0"
+    "uid": "tt0449088~0",
+    "customSort": "Pirates 2007"
   },
   {
     "id": "tt1790809",
@@ -57929,7 +57968,8 @@
         "name": "Terry Rossio"
       }
     ],
-    "uid": "tt1790809~0"
+    "uid": "tt1790809~0",
+    "customSort": "Pirates 2017"
   },
   {
     "id": "tt1298650",
@@ -57967,7 +58007,8 @@
         "name": "Tim Powers"
       }
     ],
-    "uid": "tt1298650~0"
+    "uid": "tt1298650~0",
+    "customSort": "Pirates 2011"
   },
   {
     "id": "tt1298650",
@@ -58005,7 +58046,8 @@
         "name": "Tim Powers"
       }
     ],
-    "uid": "tt1298650~1"
+    "uid": "tt1298650~1",
+    "customSort": "Pirates 2011"
   },
   {
     "id": "tt0325980",
@@ -58047,7 +58089,8 @@
         "name": "Ted Elliott"
       }
     ],
-    "uid": "tt0325980~0"
+    "uid": "tt0325980~0",
+    "customSort": "Pirates 2003"
   },
   {
     "id": "tt1430626",
@@ -62199,7 +62242,8 @@
         "name": "Rick Jaffa"
       }
     ],
-    "uid": "tt1318514~0"
+    "uid": "tt1318514~0",
+    "customSort": "Rise 2011"
   },
   {
     "id": "tt3231054",
@@ -66300,7 +66344,8 @@
         "name": "Bill Parker"
       }
     ],
-    "uid": "tt0448115~0"
+    "uid": "tt0448115~0",
+    "customSort": "DC 2019"
   },
   {
     "id": "tt0454945",
@@ -69480,7 +69525,7 @@
       }
     ],
     "uid": "tt6320628~0",
-    "customSort": "MCU 25"
+    "customSort": "MCU 2019"
   },
   {
     "id": "tt2250912",
@@ -69523,7 +69568,7 @@
       }
     ],
     "uid": "tt2250912~0",
-    "customSort": "MCU 18"
+    "customSort": "MCU 2017"
   },
   {
     "id": "tt10872600",
@@ -69566,7 +69611,7 @@
       }
     ],
     "uid": "tt10872600~0",
-    "customSort": "MCU 27"
+    "customSort": "MCU 2021"
   },
   {
     "id": "tt0416236",
@@ -71448,7 +71493,8 @@
         "name": "David Ayer"
       }
     ],
-    "uid": "tt1386697~0"
+    "uid": "tt1386697~0",
+    "customSort": "DC 2016"
   },
   {
     "id": "tt3263904",
@@ -73549,7 +73595,7 @@
       }
     ],
     "uid": "tt0800369~0",
-    "customSort": "MCU 6"
+    "customSort": "MCU 2011"
   },
   {
     "id": "tt3501632",
@@ -73592,7 +73638,7 @@
       }
     ],
     "uid": "tt3501632~0",
-    "customSort": "MCU 20"
+    "customSort": "MCU 2017"
   },
   {
     "id": "tt1981115",
@@ -73635,7 +73681,7 @@
       }
     ],
     "uid": "tt1981115~0",
-    "customSort": "MCU 9"
+    "customSort": "MCU 2013"
   },
   {
     "id": "tt1981115",
@@ -73678,7 +73724,7 @@
       }
     ],
     "uid": "tt1981115~1",
-    "customSort": "MCU 9"
+    "customSort": "MCU 2013"
   },
   {
     "id": "tt0059797",
@@ -78702,7 +78748,8 @@
         "name": "Rick Jaffa"
       }
     ],
-    "uid": "tt3450958~0"
+    "uid": "tt3450958~0",
+    "customSort": "Rise 2017"
   },
   {
     "id": "tt2086938",
@@ -80827,7 +80874,8 @@
         "name": "Allan Heinberg"
       }
     ],
-    "uid": "tt0451279~0"
+    "uid": "tt0451279~0",
+    "customSort": "DC 2017"
   },
   {
     "id": "tt0143145",
