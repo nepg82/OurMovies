@@ -13082,7 +13082,8 @@
         "name": "Ian Fleming"
       }
     ],
-    "uid": "tt0381061~0"
+    "uid": "tt0381061~0",
+    "customSort": "Bond 2006"
   },
   {
     "id": "tt0112642",
@@ -29592,7 +29593,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwe5qu8.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~33"
@@ -30132,7 +30133,7 @@
     ],
     "genre": "Drama",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt3846642-mwwe6nh7.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt3846642~0"
@@ -30379,7 +30380,7 @@
     ],
     "genre": "Animation",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0423657-mwwe73u4.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0423657~0"
@@ -30926,7 +30927,8 @@
         "name": "Ian Fleming"
       }
     ],
-    "uid": "tt0113189~0"
+    "uid": "tt0113189~0",
+    "customSort": "Bond 1995"
   },
   {
     "id": "tt2267998",
@@ -31612,7 +31614,7 @@
     ],
     "genre": "Documentary",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwe89p0.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~34"
@@ -32108,7 +32110,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwe8v9v.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~35"
@@ -32310,7 +32312,7 @@
     "actors": [],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt2499880-mwwe99da.jpg",
     "needsReview": "no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt2499880~0"
@@ -32491,7 +32493,8 @@
         "name": "Debra Hill"
       }
     ],
-    "uid": "tt0373883~0"
+    "uid": "tt0373883~0",
+    "customSort": "Halloween 2007"
   },
   {
     "id": "tt1502407",
@@ -32533,7 +32536,8 @@
         "name": "John Carpenter"
       }
     ],
-    "uid": "tt1502407~0"
+    "uid": "tt1502407~0",
+    "customSort": "Halloween 2018"
   },
   {
     "id": "tt0077651",
@@ -32567,7 +32571,8 @@
         "name": "John Carpenter"
       }
     ],
-    "uid": "tt0077651~0"
+    "uid": "tt0077651~0",
+    "customSort": "Halloween 1978"
   },
   {
     "id": "tt1502407",
@@ -32609,7 +32614,8 @@
         "name": "John Carpenter"
       }
     ],
-    "uid": "tt1502407~1"
+    "uid": "tt1502407~1",
+    "customSort": "Halloween 2018"
   },
   {
     "id": "tt0095271",
@@ -32651,7 +32657,8 @@
         "name": "Larry Rattner"
       }
     ],
-    "uid": "tt0095271~0"
+    "uid": "tt0095271~0",
+    "customSort": "Halloween 1988"
   },
   {
     "id": "tt0000000",
@@ -32673,10 +32680,11 @@
     ],
     "genre": "Horror",
     "medium": "DVD",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mwwehq8n.jpg",
     "needsReview": "no year; no director; no actors; no genre; matched by title search, not IMDb ID — verify; backfilled from TMDB: director, actors, genre, year — verify",
     "writers": [],
-    "uid": "tt0000000~36"
+    "uid": "tt0000000~36",
+    "customSort": "Halloween 1988"
   },
   {
     "id": "tt0097474",
@@ -32718,7 +32726,8 @@
         "name": "Debra Hill"
       }
     ],
-    "uid": "tt0097474~0"
+    "uid": "tt0097474~0",
+    "customSort": "Halloween 1989"
   },
   {
     "id": "tt0120694",
@@ -32760,7 +32769,8 @@
         "name": "John Carpenter"
       }
     ],
-    "uid": "tt0120694~0"
+    "uid": "tt0120694~0",
+    "customSort": "Halloween 1998"
   },
   {
     "id": "tt0000000",
@@ -32771,10 +32781,11 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwweiyw9.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~37"
+    "uid": "tt0000000~37",
+    "customSort": "Halloween 1981"
   },
   {
     "id": "tt0448157",
@@ -33353,7 +33364,7 @@
     "actors": [],
     "genre": "",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwel5qg.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~38"
@@ -34098,7 +34109,7 @@
     ],
     "genre": "Adventure",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0813715-mwwem85q.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0813715~0"
@@ -34123,7 +34134,7 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0813715-mwwemdah.jpg",
     "needsReview": "no director; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0813715~1"
@@ -34148,7 +34159,7 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0813715-mwwemihi.jpg",
     "needsReview": "no director; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0813715~2"
@@ -34173,7 +34184,7 @@
     ],
     "genre": "Adventure",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0813715-mwwemnhl.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0813715~3"
@@ -34463,7 +34474,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwen6hv.jpg",
     "needsReview": "no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~39"
@@ -34485,7 +34496,7 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mwwenhfu.jpg",
     "needsReview": "no year; no director; no actors; no genre; matched by title search, not IMDb ID — verify; backfilled from TMDB: actors, genre, year — verify",
     "writers": [],
     "uid": "tt0000000~40"
@@ -34499,7 +34510,7 @@
     "actors": [],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwenv24.jpg",
     "needsReview": "no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~41"
@@ -34554,7 +34565,7 @@
     ],
     "genre": "Action",
     "medium": "DVD",
-    "cover": "thumbs/tt0399146.jpg",
+    "cover": "thumbs/tt0399146-mwweo75a.jpg",
     "needsReview": "",
     "writers": [
       {
@@ -34774,7 +34785,8 @@
         "name": "Guillermo del Toro"
       }
     ],
-    "uid": "tt0903624~0"
+    "uid": "tt0903624~0",
+    "customSort": "Hobbit 1"
   },
   {
     "id": "tt2310332",
@@ -34816,7 +34828,8 @@
         "name": "Peter Jackson"
       }
     ],
-    "uid": "tt2310332~0"
+    "uid": "tt2310332~0",
+    "customSort": "Hobbit 3"
   },
   {
     "id": "tt1170358",
@@ -34858,7 +34871,8 @@
         "name": "Guillermo del Toro"
       }
     ],
-    "uid": "tt1170358~0"
+    "uid": "tt1170358~0",
+    "customSort": "Hobbit 2"
   },
   {
     "id": "tt0107120",
@@ -35465,7 +35479,7 @@
     "actors": [],
     "genre": "Action",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwweq50j.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~42"
@@ -35490,7 +35504,7 @@
     ],
     "genre": "Crime",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0041030-mwweqho3.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0041030~0"
@@ -36149,7 +36163,8 @@
         "name": "Suzanne Collins"
       }
     ],
-    "uid": "tt1392170~0"
+    "uid": "tt1392170~0",
+    "customSort": "Hunger Games 2012"
   },
   {
     "id": "tt1951264",
@@ -36187,7 +36202,8 @@
         "name": "Suzanne Collins"
       }
     ],
-    "uid": "tt1951264~0"
+    "uid": "tt1951264~0",
+    "customSort": "Hunger Games 2013"
   },
   {
     "id": "tt1951266",
@@ -36229,7 +36245,8 @@
         "name": "Suzanne Collins"
       }
     ],
-    "uid": "tt1951266~0"
+    "uid": "tt1951266~0",
+    "customSort": "Hunger Games 2015"
   },
   {
     "id": "tt1951265",
@@ -36271,7 +36288,8 @@
         "name": "Suzanne Collins"
       }
     ],
-    "uid": "tt1951265~0"
+    "uid": "tt1951265~0",
+    "customSort": "Hunger Games 2014"
   },
   {
     "id": "tt8244784",
@@ -36316,7 +36334,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwet1ma.jpg",
     "needsReview": "no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~43"
@@ -60231,7 +60249,8 @@
         "name": "Ian Fleming"
       }
     ],
-    "uid": "tt0830515~0"
+    "uid": "tt0830515~0",
+    "customSort": "Bond 2008"
   },
   {
     "id": "tt1082868",
@@ -67915,7 +67934,8 @@
         "name": "Ian Fleming"
       }
     ],
-    "uid": "tt1074638~0"
+    "uid": "tt1074638~0",
+    "customSort": "Bond 2012"
   },
   {
     "id": "tt1564585",
@@ -69284,7 +69304,8 @@
         "name": "Neal Purvis"
       }
     ],
-    "uid": "tt2379713~0"
+    "uid": "tt2379713~0",
+    "customSort": "Bond 2015"
   },
   {
     "id": "tt0111257",
@@ -80917,7 +80938,8 @@
         "name": "Ian Fleming"
       }
     ],
-    "uid": "tt0143145~0"
+    "uid": "tt0143145~0",
+    "customSort": "Bond 1999"
   },
   {
     "id": "tt0143145",
@@ -80959,7 +80981,8 @@
         "name": "Ian Fleming"
       }
     ],
-    "uid": "tt0143145~1"
+    "uid": "tt0143145~1",
+    "customSort": "Bond 1999"
   },
   {
     "id": "tt0469641",
