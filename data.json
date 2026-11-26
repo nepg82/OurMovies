@@ -7428,7 +7428,13 @@
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~12",
-    "customSort": "Batman 1989"
+    "customSort": "Batman 1989",
+    "contents": [
+      "Batman (1989)",
+      "Batman Returns (1992)",
+      "Batman Forever (1995)",
+      "Batman & Robin (1997)"
+    ]
   },
   {
     "id": "tt0112462",
@@ -9117,7 +9123,13 @@
     "cover": "thumbs/tt0000000-mww2roc8.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~14"
+    "uid": "tt0000000~14",
+    "contents": [
+      "Blade (1998)",
+      "Blade II (2002)",
+      "Blade: Trinity (2004)",
+      "Blade: House of Chthon (2006)"
+    ]
   },
   {
     "id": "tt0187738",
@@ -9257,7 +9269,11 @@
     "cover": "thumbs/tt0000000-mww2s6sl.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~15"
+    "uid": "tt0000000~15",
+    "contents": [
+      "Blade Runner (1982)",
+      "Blade Runner 2049 (2017)"
+    ]
   },
   {
     "id": "tt0491714",
@@ -14109,7 +14125,15 @@
     "cover": "thumbs/tt0000000-mww31yif.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~19"
+    "uid": "tt0000000~19",
+    "contents": [
+      "Children of the Corn II: The Final Sacrifice (1992)",
+      "Children of the Corn III: Urban Harvest (1995)",
+      "Children of the Corn IV: The Gathering (1996)",
+      "Children of the Corn V: Fields of Terror (1998)",
+      "Children of the Corn 666: Isaac's Return (1999)",
+      "Children of the Corn VII: Revelation (2001)"
+    ]
   },
   {
     "id": "tt0106557",
@@ -14740,7 +14764,16 @@
     "cover": "thumbs/tt0000000-mww37kim.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~20"
+    "uid": "tt0000000~20",
+    "contents": [
+      "Child's Play (1988)",
+      "Child's Play 2 (1990)",
+      "Child's Play 3 (1991)",
+      "Bride of Chucky (1998)",
+      "Seed of Chucky (2004)",
+      "Curse of Chucky (2013)",
+      "Cult of Chucky (2017)"
+    ]
   },
   {
     "id": "tt0042332",
@@ -19498,7 +19531,12 @@
     "cover": "thumbs/tt0000000-mww9q2nt.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~25"
+    "uid": "tt0000000~25",
+    "contents": [
+      "Deep Blue Sea (1999)",
+      "Deep Blue Sea 2 (2018)",
+      "Deep Blue Sea 3 (2020)"
+    ]
   },
   {
     "id": "tt0120647",
@@ -25123,7 +25161,7 @@
     "title": "Family Collection",
     "sortTitle": "Family Collection",
     "director": "Delfin Bohulano",
-    "year": "1979",
+    "year": "2012",
     "actors": [
       "Dawn Bohulano Mabalon",
       "Concepcion Bohulano",
@@ -25134,7 +25172,17 @@
     "cover": "thumbs/tt0000000-mwwdv7ic.jpg",
     "needsReview": "no year; no director; no actors; no genre; matched by title search, not IMDb ID — verify; backfilled from TMDB: director, actors, genre, year — verify",
     "writers": [],
-    "uid": "tt0000000~30"
+    "uid": "tt0000000~30",
+    "contents": [
+      "Earth Minus Zero (1997)",
+      "The Shrunken City (1998)",
+      "The Secret Kingdom (1998)",
+      "Phantom Town (1999)",
+      "Shapeshifter (1999)",
+      "Jacob Two Two Meets the Hooded Fang (1999)",
+      "The Boy With the X-Ray Eyes (1999)",
+      "Dumb Luck (2001)"
+    ]
   },
   {
     "id": "tt0072855",
@@ -26438,7 +26486,14 @@
     "cover": "thumbs/tt0000000-mwwe1o59.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~31"
+    "uid": "tt0000000~31",
+    "contents": [
+      "Final Destination (2000)",
+      "Final Destination 2 (2003)",
+      "Final Destination 3 (2006)",
+      "The Final Destination (2009)",
+      "Final Destination 5 (2011)"
+    ]
   },
   {
     "id": "tt1129423",
@@ -28328,7 +28383,17 @@
     "cover": "thumbs/tt0000000-mwwe4ccm.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~32"
+    "uid": "tt0000000~32",
+    "contents": [
+      "Friday the 13th (1980)",
+      "Friday the 13th Part 2 (1981)",
+      "Friday the 13th Part III (1982)",
+      "Friday the 13th: The Final Chapter (1984)",
+      "Friday the 13th: A New Beginning (1985)",
+      "Friday the 13th Part VI: Jason Lives (1986)",
+      "Friday the 13th Part VII: The New Blood (1988)",
+      "Friday the 13th Part VIII: Jason Takes Manhattan (1989)"
+    ]
   },
   {
     "id": "tt1632708",
@@ -32124,7 +32189,11 @@
     "cover": "thumbs/tt0000000-mwwe8v9v.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~35"
+    "uid": "tt0000000~35",
+    "contents": [
+      "Grumpy Old Men (1993)",
+      "Grumpier Old Men (1995)"
+    ]
   },
   {
     "id": "tt0406816",
@@ -33378,7 +33447,17 @@
     "cover": "thumbs/tt0000000-mwwel5qg.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~38"
+    "uid": "tt0000000~38",
+    "contents": [
+      "Harry Potter and the Sorcerer's Stone (2001)",
+      "Harry Potter and the Chamber of Secrets (2002)",
+      "Harry Potter and the Prisoner of Azkaban (2004)",
+      "Harry Potter and the Goblet of Fire (2005)",
+      "Harry Potter and the Order of the Phoenix (2007)",
+      "Harry Potter and the Half-Blood Prince (2009)",
+      "Harry Potter and the Deathly Hallows - Part 1 (2010)",
+      "Harry Potter and the Deathly Hallows - Part 2 (2011)"
+    ]
   },
   {
     "id": "tt0251114",
@@ -37938,7 +38017,13 @@
     "cover": "thumbs/local-indiana-jones-the-complete-adventure-collection-mwwexsva.jpg",
     "needsReview": "no IMDb ID; no year; no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "local-indiana-jones-the-complete-adventure-collection-~0"
+    "uid": "local-indiana-jones-the-complete-adventure-collection-~0",
+    "contents": [
+      "Raiders of the Lost Ark (1981)",
+      "Indiana Jones and the Temple of Doom (1984)",
+      "Indiana Jones and the Last Crusade (1989)",
+      "Indiana Jones and the Kingdom of the Crystal Skull (2008)"
+    ]
   },
   {
     "id": "tt0361748",
@@ -42795,7 +42880,11 @@
     "cover": "thumbs/tt0000000-mwwfa61o.jpg",
     "needsReview": "no year; no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~52"
+    "uid": "tt0000000~52",
+    "contents": [
+      "Lara Croft: Tomb Raider (2001)",
+      "Lara Croft: Tomb Raider - The Cradle of Life (2003)"
+    ]
   },
   {
     "id": "tt0146316",
@@ -43538,17 +43627,23 @@
   },
   {
     "id": "tt0000000",
-    "title": "Leading Men Collection: The Devil In A Blue Dress / Glory / Philadelphia / Taking Of Pelham 1 2 3",
-    "sortTitle": "Leading Men Collection: The Devil In A Blue Dress / Glory / Philadelphia / Taking Of Pelham 1 2 3",
+    "title": "Leading Men Collection: Denzel Washington",
+    "sortTitle": "Leading Men Collection: Denzel Washington",
     "director": "",
-    "year": "",
+    "year": "2013",
     "actors": [],
     "genre": "",
     "medium": "DVD",
     "cover": "thumbs/tt0000000-mwwfaxto.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~53"
+    "uid": "tt0000000~53",
+    "contents": [
+      "Glory (1989)",
+      "Philadelphia (1993)",
+      "The Devil In A Blue Dress (1995)",
+      "Taking Of Pelham 123 (2009)"
+    ]
   },
   {
     "id": "tt0311429",
@@ -43725,7 +43820,12 @@
         "name": "Lee Strobel"
       }
     ],
-    "uid": "tt1153037~0"
+    "uid": "tt1153037~0",
+    "contents": [
+      "The Case for Christ",
+      "The Case for Faith",
+      "The Case for a Creator"
+    ]
   },
   {
     "id": "tt16174868",
@@ -48071,7 +48171,14 @@
     "cover": "thumbs/tt0000000-mwwfl1aq.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~59"
+    "uid": "tt0000000~59",
+    "contents": [
+      "The Cocoanuts (1929)",
+      "Animal Crackers (1930)",
+      "Monkey Business (1931)",
+      "Horse Feathers (1932)",
+      "Duck Soup (1933)"
+    ]
   },
   {
     "id": "tt0110475",
@@ -59095,7 +59202,13 @@
     "cover": "thumbs/tt0000000-mwwrr65i.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~71"
+    "uid": "tt0000000~71",
+    "contents": [
+      "Police Academy (1984)",
+      "Police Academy 2: Their First Assignment (1985)",
+      "Police Academy 3: Back in Training (1986)",
+      "Police Academy 4: Citizens on Patrol (1987)"
+    ]
   },
   {
     "id": "tt1029360",
@@ -69854,7 +69967,12 @@
     "cover": "thumbs/tt0000000-mwwsaqgc.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~83"
+    "uid": "tt0000000~83",
+    "contents": [
+      "Fast Times at Ridgemont High (1982)",
+      "Sixteen Candles (1984)",
+      "The Breakfast Club (1985)"
+    ]
   },
   {
     "id": "tt3079380",
