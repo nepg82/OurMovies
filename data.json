@@ -517,8 +517,8 @@
   },
   {
     "id": "tt0000000",
-    "title": "2 Movies Double Feature: Ship of Fools / Lilith",
-    "sortTitle": "2 Movies Double Feature: Ship of Fools / Lilith",
+    "title": "2 Movies Double Feature",
+    "sortTitle": "2 Movies Double Feature",
     "director": "",
     "year": "",
     "actors": [],
@@ -527,7 +527,11 @@
     "cover": "thumbs/tt0000000-mvpf90n6.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~1"
+    "uid": "tt0000000~1",
+    "contents": [
+      "Lilith (1964)",
+      "Ship of Fools (1965)"
+    ]
   },
   {
     "id": "tt0062622",
@@ -1253,10 +1257,10 @@
     "uid": "tt0000000~2",
     "customSort": "Lethal Weapon",
     "contents": [
-      "Lethal Weapon",
-      "Lethal Weapon 2",
-      "Lethal Weapon 3",
-      "Lethal Weapon 4"
+      "Lethal Weapon (1987)",
+      "Lethal Weapon 2 (1989)",
+      "Lethal Weapon 3 (1992)",
+      "Lethal Weapon 4 (1998)"
     ]
   },
   {
@@ -29663,14 +29667,20 @@
     "title": "Ghost Stories: 4 Movie Set",
     "sortTitle": "Ghost Stories: 4 Movie Set",
     "director": "",
-    "year": "",
+    "year": "2002",
     "actors": [],
     "genre": "",
     "medium": "DVD",
     "cover": "thumbs/tt0000000-mwwe5qu8.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~33"
+    "uid": "tt0000000~33",
+    "contents": [
+      "Invisible Ghost (1941)",
+      "Carnival of Souls (1962)",
+      "Death at Love House (1976)",
+      "Dominique (1979)"
+    ]
   },
   {
     "id": "tt0087332",
@@ -49729,7 +49739,60 @@
     "cover": "thumbs/tt0000000-mwwfvcyp.jpg",
     "needsReview": "no year; no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~61"
+    "uid": "tt0000000~61",
+    "contents": [
+      "Abraxas, Guardian of the Universe (1990)",
+      "Act of Love (1980)",
+      "Beyond the Door (1974)",
+      "Blood Thirst (1971)",
+      "Bloody Pit of Horror (1965)",
+      "Choices (1981)",
+      "The Cocaine Fiends / The Pace That Kills (1935)",
+      "Colossus and the Amazon Queen (1960)",
+      "Count Dracula and His Vampire Bride / The Satanic Rites of Dracula (1973)",
+      "Dance Hall Racket (1953)",
+      "Deathouse (1981)",
+      "Delinquent Daughters (1944)",
+      "Dementia 13 (1963)",
+      "The Driller Killer (1979)",
+      "Drive-In Massacre (1976)",
+      "The Driver's Seat / Identikit (1974)",
+      "End of the World (1977)",
+      "Evel Knievel (1971)",
+      "The Firing Line (1988)",
+      "Future Hunters (1986)",
+      "Giants of Rome (1964)",
+      "Hands of Steel (1986)",
+      "Hercules Against the Moon Men (1964)",
+      "Hercules in the Haunted World (1961)",
+      "House on Haunted Hill (1959)",
+      "How Awful About Allan (1970)",
+      "I Accuse My Parents (1944)",
+      "Incident on a Dark Street (1973)",
+      "It Seemed Like a Good Idea at the Time (1975)",
+      "Katie's Passion / Katie Tippel (1975)",
+      "Laser Mission (1989)",
+      "Legacy of Blood (1971)",
+      "Manos: The Hands of Fate (1966)",
+      "Marihuana (1936)",
+      "Mesmerized (1985)",
+      "Morons from Outer Space (1985)",
+      "Night of Bloody Horror (1969)",
+      "Portrait of a Showgirl (1982)",
+      "The Pyx (1973)",
+      "Reefer Madness (1936)",
+      "Romulus and the Sabines (1961)",
+      "The Seniors (1978)",
+      "Sex Madness (1938)",
+      "Silent Night, Bloody Night (1972)",
+      "Slipstream (1989)",
+      "Swamp Women (1956)",
+      "The Terror (1963)",
+      "The Terror of Tiny Town (1938)",
+      "Test Tube Babies (1948)",
+      "Twisted Obsession / The Mad Monkey (1989)",
+      "Warriors of the Wasteland (1983)"
+    ]
   },
   {
     "id": "tt0104868",
@@ -52573,14 +52636,26 @@
     "title": "Mystery Movie Pack",
     "sortTitle": "Mystery Movie Pack",
     "director": "",
-    "year": "",
+    "year": "2011",
     "actors": [],
     "genre": "",
     "medium": "DVD",
     "cover": "thumbs/tt0000000-mwwri18f.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~65"
+    "uid": "tt0000000~65",
+    "contents": [
+      "Alfred Hitchcock: Easy Virtue (1928)",
+      "Alfred Hitchcock: Young & Innocent (1937)",
+      "The Return Of Alex Kelly (1999)",
+      "Murder Most Likely (1999)",
+      "My Husband's Double Life (2001)",
+      "Cause Of Death (2000)",
+      "The Rendering (2002)",
+      "People I Know (2002)",
+      "American Gun (2005)",
+      "Frame Of Mind (1999)"
+    ]
   },
   {
     "id": "tt0134618",
