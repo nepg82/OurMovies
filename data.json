@@ -2283,7 +2283,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/local-adventures-of-sinbad-unk-johnny-the-giant-killer-mwwwdei2.jpg",
     "needsReview": "no IMDb ID; no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "local-adventures-of-sinbad-unk-johnny-the-giant-killer-~0"
@@ -2308,7 +2308,7 @@
     ],
     "genre": "Television",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0103586-mwwwdsyv.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0103586~0"
@@ -9075,7 +9075,8 @@
         "name": "Marv Wolfman"
       }
     ],
-    "uid": "tt0120611~0"
+    "uid": "tt0120611~0",
+    "customSort": "Blade 1"
   },
   {
     "id": "tt0120611",
@@ -9113,7 +9114,8 @@
         "name": "Marv Wolfman"
       }
     ],
-    "uid": "tt0120611~1"
+    "uid": "tt0120611~1",
+    "customSort": "Blade 1"
   },
   {
     "id": "tt0000000",
@@ -9133,7 +9135,8 @@
       "Blade II (2002)",
       "Blade: Trinity (2004)",
       "Blade: House of Chthon (2006)"
-    ]
+    ],
+    "customSort": "Blade 2006"
   },
   {
     "id": "tt0187738",
@@ -9175,7 +9178,8 @@
         "name": "Jason Brubaker"
       }
     ],
-    "uid": "tt0187738~0"
+    "uid": "tt0187738~0",
+    "customSort": "Blade 2"
   },
   {
     "id": "tt0187738",
@@ -9217,7 +9221,8 @@
         "name": "Jason Brubaker"
       }
     ],
-    "uid": "tt0187738~1"
+    "uid": "tt0187738~1",
+    "customSort": "Blade 2"
   },
   {
     "id": "tt1856101",
@@ -9301,7 +9306,8 @@
     "cover": "thumbs/tt0491714.jpg",
     "needsReview": "",
     "writers": [],
-    "uid": "tt0491714~0"
+    "uid": "tt0491714~0",
+    "customSort": "Blade 2006"
   },
   {
     "id": "tt0359013",
@@ -9339,7 +9345,8 @@
         "name": "Marv Wolfman"
       }
     ],
-    "uid": "tt0359013~0"
+    "uid": "tt0359013~0",
+    "customSort": "Blade 3"
   },
   {
     "id": "tt0359013",
@@ -9377,7 +9384,8 @@
         "name": "Marv Wolfman"
       }
     ],
-    "uid": "tt0359013~1"
+    "uid": "tt0359013~1",
+    "customSort": "Blade 3"
   },
   {
     "id": "tt0071230",
@@ -14081,7 +14089,8 @@
         "name": "Stephen King"
       }
     ],
-    "uid": "tt0087050~0"
+    "uid": "tt0087050~0",
+    "customSort": "Children of the Corn 1984"
   },
   {
     "id": "tt12311866",
@@ -14115,7 +14124,8 @@
         "name": "Stephen King"
       }
     ],
-    "uid": "tt12311866~0"
+    "uid": "tt12311866~0",
+    "customSort": "Children of the Corn 2020"
   },
   {
     "id": "tt0000000",
@@ -14137,7 +14147,8 @@
       "Children of the Corn V: Fields of Terror (1998)",
       "Children of the Corn 666: Isaac's Return (1999)",
       "Children of the Corn VII: Revelation (2001)"
-    ]
+    ],
+    "customSort": "Children of the Corn 2011"
   },
   {
     "id": "tt0106557",
@@ -14175,7 +14186,8 @@
         "name": "Stephen King"
       }
     ],
-    "uid": "tt0106557~0"
+    "uid": "tt0106557~0",
+    "customSort": "Children of the Corn 1992"
   },
   {
     "id": "tt0065547",
@@ -23645,7 +23657,7 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt1523988-mwwwr26b.jpg",
     "needsReview": "no cover art available",
     "writers": [],
     "uid": "tt1523988~0"
@@ -28044,7 +28056,8 @@
         "name": "Wes Craven"
       }
     ],
-    "uid": "tt0101917~0"
+    "uid": "tt0101917~0",
+    "customSort": "Nightmare 1991"
   },
   {
     "id": "tt1621039",
@@ -33133,7 +33146,8 @@
         "name": "Thomas Harris"
       }
     ],
-    "uid": "tt0212985~0"
+    "uid": "tt0212985~0",
+    "customSort": "Hannibal 2001"
   },
   {
     "id": "tt0293832",
@@ -53477,7 +53491,8 @@
         "name": "Wes Craven"
       }
     ],
-    "uid": "tt0111686~0"
+    "uid": "tt0111686~0",
+    "customSort": "Nightmare 1994"
   },
   {
     "id": "tt1598822",
@@ -53774,7 +53789,8 @@
         "name": "Wes Craven"
       }
     ],
-    "uid": "tt0087800~0"
+    "uid": "tt0087800~0",
+    "customSort": "Nightmare 1984"
   },
   {
     "id": "tt0089686",
@@ -53808,7 +53824,8 @@
         "name": "Wes Craven"
       }
     ],
-    "uid": "tt0089686~0"
+    "uid": "tt0089686~0",
+    "customSort": "Nightmare 1985"
   },
   {
     "id": "tt0093629",
@@ -53850,7 +53867,8 @@
         "name": "Bruce Wagner"
       }
     ],
-    "uid": "tt0093629~0"
+    "uid": "tt0093629~0",
+    "customSort": "Nightmare 1987"
   },
   {
     "id": "tt0095742",
@@ -53892,7 +53910,8 @@
         "name": "William Kotzwinkle"
       }
     ],
-    "uid": "tt0095742~0"
+    "uid": "tt0095742~0",
+    "customSort": "Nightmare 1988"
   },
   {
     "id": "tt0095742",
@@ -53934,7 +53953,8 @@
         "name": "William Kotzwinkle"
       }
     ],
-    "uid": "tt0095742~1"
+    "uid": "tt0095742~1",
+    "customSort": "Nightmare 1988"
   },
   {
     "id": "tt0000000",
@@ -53948,7 +53968,8 @@
     "cover": "thumbs/tt0000000-mwwrj3ar.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~66"
+    "uid": "tt0000000~66",
+    "customSort": "Nightmare 2008"
   },
   {
     "id": "tt0097981",
@@ -53990,7 +54011,8 @@
         "name": "Leslie Bohem"
       }
     ],
-    "uid": "tt0097981~0"
+    "uid": "tt0097981~0",
+    "customSort": "Nightmare 1989"
   },
   {
     "id": "tt0142688",
@@ -54438,8 +54460,8 @@
   },
   {
     "id": "tt3110958",
-    "title": "Now You See Me 2 [Insaisissable 2]",
-    "sortTitle": "Now You See Me 2 [Insaisissable 2]",
+    "title": "Now You See Me 2",
+    "sortTitle": "Now You See Me 2",
     "director": "Jon M. Chu",
     "year": "2016",
     "actors": [
@@ -54802,7 +54824,8 @@
         "name": "Jack Golden Russell"
       }
     ],
-    "uid": "tt5164214~0"
+    "uid": "tt5164214~0",
+    "customSort": "Ocean's 2018"
   },
   {
     "id": "tt0240772",
@@ -54844,7 +54867,8 @@
         "name": "George Clayton Johnson"
       }
     ],
-    "uid": "tt0240772~0"
+    "uid": "tt0240772~0",
+    "customSort": "Ocean's 2001"
   },
   {
     "id": "tt0240772",
@@ -54886,7 +54910,8 @@
         "name": "George Clayton Johnson"
       }
     ],
-    "uid": "tt0240772~1"
+    "uid": "tt0240772~1",
+    "customSort": "Ocean's 2001"
   },
   {
     "id": "tt0240772",
@@ -54928,7 +54953,8 @@
         "name": "George Clayton Johnson"
       }
     ],
-    "uid": "tt0240772~2"
+    "uid": "tt0240772~2",
+    "customSort": "Ocean's 2001"
   },
   {
     "id": "tt0496806",
@@ -54970,7 +54996,8 @@
         "name": "George Clayton Johnson"
       }
     ],
-    "uid": "tt0496806~0"
+    "uid": "tt0496806~0",
+    "customSort": "Ocean's 2007"
   },
   {
     "id": "tt0349903",
@@ -55012,7 +55039,8 @@
         "name": "Jack Golden Russell"
       }
     ],
-    "uid": "tt0349903~0"
+    "uid": "tt0349903~0",
+    "customSort": "Ocean's 2004"
   },
   {
     "id": "tt0084434",
@@ -58055,8 +58083,8 @@
   },
   {
     "id": "tt1131729",
-    "title": "Pirate Radio (The Boat That Rocled)",
-    "sortTitle": "Pirate Radio (The Boat That Rocled)",
+    "title": "Pirate Radio (The Boat That Rocked)",
+    "sortTitle": "Pirate Radio (The Boat That Rocked)",
     "director": "Richard Curtis",
     "year": "2009",
     "actors": [
@@ -60290,14 +60318,20 @@
     "title": "Pumpkinhead II / Wishmaster / Wishmaster 2 / Leprechaun",
     "sortTitle": "Pumpkinhead II / Wishmaster / Wishmaster 2 / Leprechaun",
     "director": "",
-    "year": "",
+    "year": "2011",
     "actors": [],
     "genre": "Horror",
     "medium": "DVD",
     "cover": "thumbs/tt0000000-mwwru20c.jpg",
     "needsReview": "no year; no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~74"
+    "uid": "tt0000000~74",
+    "contents": [
+      "Leprechaun (1993)",
+      "Pumpkinhead II: Blood Wings (1994)",
+      "Wishmaster (1997)",
+      "Wishmaster 2: Evil Never Dies (1999)"
+    ]
   },
   {
     "id": "tt0330793",
@@ -60529,8 +60563,8 @@
   },
   {
     "id": "tt0000000",
-    "title": "Quentin Tarantino Triple Feature: Reservoir Dogs / Pulp Fiction / Jackie Brown",
-    "sortTitle": "Quentin Tarantino Triple Feature: Reservoir Dogs / Pulp Fiction / Jackie Brown",
+    "title": "Quentin Tarantino Triple Feature",
+    "sortTitle": "Quentin Tarantino Triple Feature",
     "director": "Quentin Tarantino",
     "year": "",
     "actors": [
@@ -60550,7 +60584,12 @@
     "cover": "thumbs/tt0000000-mwwrw0xl.jpg",
     "needsReview": "no year; no TMDB match found; no cover art available",
     "writers": [],
-    "uid": "tt0000000~75"
+    "uid": "tt0000000~75",
+    "contents": [
+      "Reservoir Dogs (1992)",
+      "Pulp Fiction (1994)",
+      "Jackie Brown (1997)"
+    ]
   },
   {
     "id": "tt0114214",
@@ -61518,7 +61557,8 @@
         "name": "Thomas Harris"
       }
     ],
-    "uid": "tt0289765~0"
+    "uid": "tt0289765~0",
+    "customSort": "Hannibal 2002"
   },
   {
     "id": "tt0421239",
@@ -67518,7 +67558,8 @@
         "name": "Thomas Harris"
       }
     ],
-    "uid": "tt0102926~0"
+    "uid": "tt0102926~0",
+    "customSort": "Hannibal 1991"
   },
   {
     "id": "tt0070694",
@@ -82745,5 +82786,40 @@
     "medium": "DVD",
     "cover": "thumbs/tmdb-287332.jpg",
     "needsReview": ""
+  },
+  {
+    "id": "tt0367959",
+    "uid": "ukwndlbq82fi",
+    "title": "Hannibal Rising",
+    "sortTitle": "Hannibal Rising",
+    "director": "Peter Webber",
+    "year": "2007",
+    "actors": [
+      "Gaspard Ulliel",
+      "Aaran Thomas",
+      "Gong Li",
+      "Dominic West",
+      "Rhys Ifans",
+      "Richard Brake",
+      "Kevin McKidd",
+      "Stephen Walters",
+      "Ivan Marevich",
+      "Helena-Lia Tachovská"
+    ],
+    "writers": [
+      {
+        "job": "Screenplay",
+        "name": "Thomas Harris"
+      },
+      {
+        "job": "Novel",
+        "name": "Thomas Harris"
+      }
+    ],
+    "genre": "Crime",
+    "medium": "DVD",
+    "cover": "thumbs/tt0367959.jpg",
+    "needsReview": "",
+    "customSort": "Hannibal 2007"
   }
 ]
