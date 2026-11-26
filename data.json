@@ -11921,7 +11921,8 @@
         "name": "Joel Erickson"
       }
     ],
-    "uid": "tt4701182~0"
+    "uid": "tt4701182~0",
+    "customSort": "Transformers 2018"
   },
   {
     "id": "tt4701182",
@@ -11959,7 +11960,8 @@
         "name": "Joel Erickson"
       }
     ],
-    "uid": "tt4701182~1"
+    "uid": "tt4701182~1",
+    "customSort": "Transformers 2018"
   },
   {
     "id": "tt0887883",
@@ -72148,7 +72150,8 @@
         "name": "James Cameron"
       }
     ],
-    "uid": "tt0103064~0"
+    "uid": "tt0103064~0",
+    "customSort": "Terminator 2"
   },
   {
     "id": "tt2854926",
@@ -72391,7 +72394,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwsq2u9.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~85"
@@ -73010,7 +73013,8 @@
         "name": "Gale Anne Hurd"
       }
     ],
-    "uid": "tt0088247~0"
+    "uid": "tt0088247~0",
+    "customSort": "Terminator 1"
   },
   {
     "id": "tt0181852",
@@ -73052,7 +73056,8 @@
         "name": "Michael Ferris"
       }
     ],
-    "uid": "tt0181852~0"
+    "uid": "tt0181852~0",
+    "customSort": "Terminator 3"
   },
   {
     "id": "tt1340138",
@@ -73094,7 +73099,8 @@
         "name": "James Cameron"
       }
     ],
-    "uid": "tt1340138~0"
+    "uid": "tt1340138~0",
+    "customSort": "Terminator 5"
   },
   {
     "id": "tt0438488",
@@ -73136,7 +73142,8 @@
         "name": "James Cameron"
       }
     ],
-    "uid": "tt0438488~0"
+    "uid": "tt0438488~0",
+    "customSort": "Terminator 4"
   },
   {
     "id": "tt6450804",
@@ -73178,7 +73185,8 @@
         "name": "Josh Friedman"
       }
     ],
-    "uid": "tt6450804~0"
+    "uid": "tt6450804~0",
+    "customSort": "Terminator 6"
   },
   {
     "id": "tt0034272",
@@ -74029,7 +74037,7 @@
     ],
     "genre": "Comedy",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwsua5w.jpg",
     "needsReview": "no director; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~86"
@@ -74057,7 +74065,7 @@
     "actors": [],
     "genre": "Comedy",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwsunnq.jpg",
     "needsReview": "no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~88"
@@ -74428,7 +74436,7 @@
     ],
     "genre": "Animation",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0274294-mwwsv7mi.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0274294~0"
@@ -75249,7 +75257,8 @@
         "name": "Alex Kurtzman"
       }
     ],
-    "uid": "tt0418279~0"
+    "uid": "tt0418279~0",
+    "customSort": "Transformers 2007"
   },
   {
     "id": "tt2109248",
@@ -75279,7 +75288,8 @@
         "name": "Ehren Kruger"
       }
     ],
-    "uid": "tt2109248~0"
+    "uid": "tt2109248~0",
+    "customSort": "Transformers 2014"
   },
   {
     "id": "tt1399103",
@@ -75309,7 +75319,8 @@
         "name": "Ehren Kruger"
       }
     ],
-    "uid": "tt1399103~0"
+    "uid": "tt1399103~0",
+    "customSort": "Transformers 2011"
   },
   {
     "id": "tt1055369",
@@ -75347,7 +75358,8 @@
         "name": "Ehren Kruger"
       }
     ],
-    "uid": "tt1055369~0"
+    "uid": "tt1055369~0",
+    "customSort": "Transformers 2009"
   },
   {
     "id": "tt3371366",
@@ -75389,7 +75401,8 @@
         "name": "Akiva Goldsman"
       }
     ],
-    "uid": "tt3371366~0"
+    "uid": "tt3371366~0",
+    "customSort": "Transformers 2017"
   },
   {
     "id": "tt0293662",
@@ -75579,14 +75592,14 @@
   },
   {
     "id": "tt0000000",
-    "title": "Triple Feature: Revelation Road / Revelation Road 2 / Black Rider",
-    "sortTitle": "Triple Feature: Revelation Road / Revelation Road 2 / Black Rider",
+    "title": "Revelation Road / Revelation Road 2 / Black Rider",
+    "sortTitle": "Revelation Road / Revelation Road 2 / Black Rider",
     "director": "",
     "year": "",
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwszkq2.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~89"
@@ -76058,7 +76071,8 @@
         "name": "Stephenie Meyer"
       }
     ],
-    "uid": "tt1099212~0"
+    "uid": "tt1099212~0",
+    "customSort": "Twilight 1"
   },
   {
     "id": "tt0000000",
@@ -76069,7 +76083,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwt09ms.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~90"
@@ -76106,7 +76120,8 @@
         "name": "Stephenie Meyer"
       }
     ],
-    "uid": "tt1324999~0"
+    "uid": "tt1324999~0",
+    "customSort": "Twilight 4"
   },
   {
     "id": "tt1673434",
@@ -76140,7 +76155,8 @@
         "name": "Stephenie Meyer"
       }
     ],
-    "uid": "tt1673434~0"
+    "uid": "tt1673434~0",
+    "customSort": "Twilight 5"
   },
   {
     "id": "tt1325004",
@@ -76174,7 +76190,8 @@
         "name": "Stephenie Meyer"
       }
     ],
-    "uid": "tt1325004~0"
+    "uid": "tt1325004~0",
+    "customSort": "Twilight 3"
   },
   {
     "id": "tt1259571",
@@ -76208,7 +76225,8 @@
         "name": "Stephenie Meyer"
       }
     ],
-    "uid": "tt1259571~0"
+    "uid": "tt1259571~0",
+    "customSort": "Twilight 2"
   },
   {
     "id": "tt0315297",
