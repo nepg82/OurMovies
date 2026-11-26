@@ -76512,7 +76512,7 @@
     "actors": [],
     "genre": "Comedy",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwttsax.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~91"
@@ -76658,7 +76658,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwtu6b2.jpg",
     "needsReview": "no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~92"
@@ -76794,7 +76794,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwtvbcu.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~93"
@@ -77945,7 +77945,7 @@
     ],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwtwkbe.jpg",
     "needsReview": "no year; no director; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~94"
@@ -77999,7 +77999,7 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0498460-mwwtzyvt.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0498460~0"
@@ -78015,7 +78015,7 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0498466-mwwu06is.jpg",
     "needsReview": "no director; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0498466~0"
@@ -78031,7 +78031,7 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0498495-mwwu0bm4.jpg",
     "needsReview": "no director; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0498495~0"
@@ -78047,7 +78047,7 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0498513-mwwu0h5n.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0498513~0"
@@ -78063,7 +78063,7 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0498532-mwwu0m2h.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0498532~0"
@@ -78079,7 +78079,7 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0498559-mwwu0rkq.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0498559~0"
@@ -78104,7 +78104,7 @@
     ],
     "genre": "Documentary",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt1877514-mwwu1cm1.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt1877514~0"
@@ -78485,7 +78485,7 @@
     ],
     "genre": "Horror",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt1520211-mwwu3n1t.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt1520211~0"
@@ -78510,7 +78510,7 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt1520211-mwwu357y.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt1520211~1"
@@ -80605,7 +80605,7 @@
     ],
     "genre": "Documentary",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwu81c6.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~95"
@@ -80660,7 +80660,7 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt2288064-mwwu8fjq.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt2288064~0"
@@ -81247,7 +81247,7 @@
     "actors": [],
     "genre": "Music",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwu94wr.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~96"
@@ -81292,7 +81292,8 @@
         "name": "David Leslie Johnson-McGoldrick"
       }
     ],
-    "uid": "tt1646987~0"
+    "uid": "tt1646987~0",
+    "customSort": "Clash 2"
   },
   {
     "id": "tt1646987",
@@ -81334,7 +81335,8 @@
         "name": "David Leslie Johnson-McGoldrick"
       }
     ],
-    "uid": "tt1646987~1"
+    "uid": "tt1646987~1",
+    "customSort": "Clash 2"
   },
   {
     "id": "tt1772341",
@@ -81578,7 +81580,7 @@
     ],
     "genre": "Science-Fiction",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0106179-mwwucp8b.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0106179~0"
@@ -81603,7 +81605,7 @@
     ],
     "genre": "Drama",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0106179-mwwuc4up.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0106179~1"
@@ -81628,7 +81630,7 @@
     ],
     "genre": "Crime",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0106179-mwwubrgd.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0106179~2"
@@ -81653,7 +81655,7 @@
     ],
     "genre": "Drama",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0106179-mwwud8qe.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0106179~3"
@@ -81694,7 +81696,8 @@
         "name": "Bryan Singer"
       }
     ],
-    "uid": "tt0120903~0"
+    "uid": "tt0120903~0",
+    "customSort": "X-Men 2000"
   },
   {
     "id": "tt0458525",
@@ -81728,7 +81731,8 @@
         "name": "Skip Woods"
       }
     ],
-    "uid": "tt0458525~0"
+    "uid": "tt0458525~0",
+    "customSort": "X-Men 2009"
   },
   {
     "id": "tt3385516",
@@ -81770,7 +81774,8 @@
         "name": "Dan Harris"
       }
     ],
-    "uid": "tt3385516~0"
+    "uid": "tt3385516~0",
+    "customSort": "X-Men 2016"
   },
   {
     "id": "tt6565702",
@@ -81800,7 +81805,8 @@
         "name": "Simon Kinberg"
       }
     ],
-    "uid": "tt6565702~0"
+    "uid": "tt6565702~0",
+    "customSort": "X-Men 2019"
   },
   {
     "id": "tt1877832",
@@ -81842,7 +81848,8 @@
         "name": "Jane Goldman"
       }
     ],
-    "uid": "tt1877832~0"
+    "uid": "tt1877832~0",
+    "customSort": "X-Men 2014"
   },
   {
     "id": "tt1270798",
@@ -81884,7 +81891,8 @@
         "name": "Matthew Vaughn"
       }
     ],
-    "uid": "tt1270798~0"
+    "uid": "tt1270798~0",
+    "customSort": "X-Men 2011"
   },
   {
     "id": "tt0290334",
@@ -81926,7 +81934,8 @@
         "name": "David Hayter"
       }
     ],
-    "uid": "tt0290334~0"
+    "uid": "tt0290334~0",
+    "customSort": "X-Men 2003"
   },
   {
     "id": "tt0376994",
@@ -81960,7 +81969,8 @@
         "name": "Zak Penn"
       }
     ],
-    "uid": "tt0376994~0"
+    "uid": "tt0376994~0",
+    "customSort": "X-Men 2006"
   },
   {
     "id": "tt0295701",
@@ -82046,7 +82056,7 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt4236770-mwwugmvl.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt4236770~0"
@@ -82060,7 +82070,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt4236770-mwwug91w.jpg",
     "needsReview": "no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt4236770~1"
@@ -82187,7 +82197,7 @@
     ],
     "genre": "",
     "medium": "VHS",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0803893-mwwuh05r.jpg",
     "needsReview": "no director; no genre; no cover art available",
     "writers": [],
     "uid": "tt0803893~0"
