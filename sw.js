@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'movie-shelf-v7.0.5';
+const CACHE_VERSION = 'movie-shelf-v7.0.6';
 const CORE_ASSETS = [
   'index.html',
   'admin.html',

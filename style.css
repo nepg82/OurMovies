@@ -223,6 +223,7 @@ a { color: inherit; }
 }
 
 .card .meta .sort-note {
+  font-size: 0.5rem;
   font-style: italic;
 }
 
