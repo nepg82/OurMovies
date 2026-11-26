@@ -2649,8 +2649,8 @@
   },
   {
     "id": "tt0485851",
-    "title": "Air I Breathe, The",
-    "sortTitle": "Air I Breathe, The",
+    "title": "The Air I Breathe",
+    "sortTitle": "Air I Breathe",
     "director": "Jieho Lee",
     "year": "2007",
     "actors": [
@@ -6090,8 +6090,8 @@
   },
   {
     "id": "tt0338751",
-    "title": "Aviator, The",
-    "sortTitle": "Aviator, The",
+    "title": "The Aviator",
+    "sortTitle": "Aviator",
     "director": "Martin Scorsese",
     "year": "2004",
     "actors": [
@@ -9839,8 +9839,8 @@
   },
   {
     "id": "tt0201485",
-    "title": "Body ,The",
-    "sortTitle": "Body ,The",
+    "title": "The Body",
+    "sortTitle": "Body",
     "director": "Jonas McCord",
     "year": "2001",
     "actors": [
@@ -9937,8 +9937,8 @@
   },
   {
     "id": "tt0103855",
-    "title": "Bodyguard, The",
-    "sortTitle": "Bodyguard, The",
+    "title": "The Bodyguard",
+    "sortTitle": "Bodyguard",
     "director": "Mick Jackson",
     "year": "1992",
     "actors": [
@@ -25234,8 +25234,8 @@
   },
   {
     "id": "tt7869070",
-    "title": "Fanatic, The",
-    "sortTitle": "Fanatic, The",
+    "title": "The Fanatic",
+    "sortTitle": "Fanatic",
     "director": "Fred Durst",
     "year": "2019",
     "actors": [
@@ -30252,7 +30252,8 @@
         "name": "M. Night Shyamalan"
       }
     ],
-    "uid": "tt6823368~0"
+    "uid": "tt6823368~0",
+    "customSort": "Unbreakable 3"
   },
   {
     "id": "tt0097438",
@@ -34968,8 +34969,8 @@
   },
   {
     "id": "tt0457939",
-    "title": "Holiday, The",
-    "sortTitle": "Holiday, The",
+    "title": "The Holiday",
+    "sortTitle": "Holiday",
     "director": "Nancy Meyers",
     "year": "2006",
     "actors": [
@@ -37487,8 +37488,8 @@
   },
   {
     "id": "tt0314786",
-    "title": "In-Laws, The",
-    "sortTitle": "In-Laws, The",
+    "title": "The In-Laws",
+    "sortTitle": "In-Laws",
     "director": "Andrew Fleming",
     "year": "2003",
     "actors": [
@@ -41482,8 +41483,8 @@
   },
   {
     "id": "tt0219854",
-    "title": "Kid, The",
-    "sortTitle": "Kid, The",
+    "title": "The Kid",
+    "sortTitle": "Kid",
     "director": "Jon Turteltaub",
     "year": "2000",
     "actors": [
@@ -54381,8 +54382,8 @@
   },
   {
     "id": "tt5814060",
-    "title": "Nun, The",
-    "sortTitle": "Nun, The",
+    "title": "The Nun",
+    "sortTitle": "Nun",
     "director": "Corin Hardy",
     "year": "2018",
     "actors": [
@@ -65408,7 +65409,7 @@
     ],
     "genre": "Thriller",
     "medium": "DVD",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mwws56s3.jpg",
     "needsReview": "no year; no director; no actors; no genre; matched by title search, not IMDb ID — verify; backfilled from TMDB: director, actors, genre, year — verify",
     "writers": [],
     "uid": "tt0000000~79"
@@ -65690,7 +65691,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwws5r4e.jpg",
     "needsReview": "no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~80"
@@ -66361,7 +66362,7 @@
     ],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/tt0111161.jpg",
+    "cover": "thumbs/tt0111161-mwws6jzr.jpg",
     "needsReview": "",
     "writers": [
       {
@@ -67403,8 +67404,8 @@
   },
   {
     "id": "tt7040874",
-    "title": "Simple Favor, A",
-    "sortTitle": "Simple Favor, A",
+    "title": "A Simple Favor",
+    "sortTitle": "Simple Favor",
     "director": "Paul Feig",
     "year": "2018",
     "actors": [
@@ -67693,7 +67694,7 @@
     ],
     "genre": "Music",
     "medium": "DVD",
-    "cover": "thumbs/tt0000000.jpg",
+    "cover": "thumbs/tt0000000-mwws83zx.jpg",
     "needsReview": "no year; no director; no actors; no genre; matched by title search, not IMDb ID — verify; backfilled from TMDB: director, actors, genre, year — verify",
     "writers": [],
     "uid": "tt0000000~81"
@@ -67941,7 +67942,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwws8ovq.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~82"
@@ -68416,7 +68417,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0081933-mwws9jdz.jpg",
     "needsReview": "no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0081933~0"
@@ -69836,7 +69837,8 @@
         "name": "M. Night Shyamalan"
       }
     ],
-    "uid": "tt4972582~0"
+    "uid": "tt4972582~0",
+    "customSort": "Unbreakable 2"
   },
   {
     "id": "tt0000000",
@@ -69847,7 +69849,7 @@
     "actors": [],
     "genre": "",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwsaqgc.jpg",
     "needsReview": "no year; no director; no actors; no genre; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~83"
@@ -70388,8 +70390,8 @@
   },
   {
     "id": "tt0086190",
-    "title": "Star Wars: Episode VI - Return Of The Jedi",
-    "sortTitle": "Star Wars: Episode VI - Return Of The Jedi",
+    "title": "Star Wars VI: Return Of The Jedi",
+    "sortTitle": "Star Wars VI: Return Of The Jedi",
     "director": "Richard Marquand",
     "year": "1983",
     "actors": [
@@ -70430,8 +70432,8 @@
   },
   {
     "id": "tt0080684",
-    "title": "Star Wars: The Empire Strikes Back",
-    "sortTitle": "Star Wars: The Empire Strikes Back",
+    "title": "Star Wars V: The Empire Strikes Back",
+    "sortTitle": "Star Wars V: The Empire Strikes Back",
     "director": "Irvin Kershner",
     "year": "1980",
     "actors": [
@@ -70468,8 +70470,8 @@
   },
   {
     "id": "tt2488496",
-    "title": "Star Wars: The Force Awakens",
-    "sortTitle": "Star Wars: The Force Awakens",
+    "title": "Star Wars VII: The Force Awakens",
+    "sortTitle": "Star Wars VII: The Force Awakens",
     "director": "J.J. Abrams",
     "year": "2015",
     "actors": [
@@ -70510,8 +70512,8 @@
   },
   {
     "id": "tt2527336",
-    "title": "Star Wars: The Last Jedi",
-    "sortTitle": "Star Wars: The Last Jedi",
+    "title": "Star Wars VIII: The Last Jedi",
+    "sortTitle": "Star Wars VIII: The Last Jedi",
     "director": "Rian Johnson",
     "year": "2017",
     "actors": [
@@ -70914,7 +70916,7 @@
     ],
     "genre": "Drama",
     "medium": "Blu-ray",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0099864-mwwsfr4w.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0099864~1"
@@ -71221,7 +71223,7 @@
     "actors": [],
     "genre": "Drama",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0000000-mwwsg7o9.jpg",
     "needsReview": "no director; no actors; no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0000000~84"
@@ -71835,7 +71837,7 @@
     ],
     "genre": "Adventure",
     "medium": "DVD",
-    "cover": "thumbs/_no-poster.svg",
+    "cover": "thumbs/tt0460681-mwwsguy5.jpg",
     "needsReview": "no TMDB match found; no cover art available",
     "writers": [],
     "uid": "tt0460681~0"
@@ -78826,8 +78828,8 @@
   },
   {
     "id": "tt2086938",
-    "title": "War of 1812, The",
-    "sortTitle": "War of 1812, The",
+    "title": "The War of 1812",
+    "sortTitle": "War of 1812",
     "director": "Lawrence Hott",
     "year": "2005",
     "actors": [
