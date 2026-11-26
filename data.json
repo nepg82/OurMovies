@@ -3050,7 +3050,8 @@
         "name": "Ronald Shusett"
       }
     ],
-    "uid": "tt0078748~0"
+    "uid": "tt0078748~0",
+    "customSort": "Alien 1"
   },
   {
     "id": "tt0000000",
@@ -3064,7 +3065,13 @@
     "cover": "thumbs/tt0000000-mww2fd9i.jpg",
     "needsReview": "no year; no director; no actors; no genre; matched by title search, not IMDb ID — verify; backfilled from TMDB: year — verify",
     "writers": [],
-    "uid": "tt0000000~7"
+    "uid": "tt0000000~7",
+    "contents": [
+      "Alien (1979)",
+      "Aliens (1986)",
+      "Alien 3 (1992)",
+      "Alien Resurrection (1997)"
+    ]
   },
   {
     "id": "tt0000000",
@@ -3116,7 +3123,8 @@
         "name": "Dan O'Bannon"
       }
     ],
-    "uid": "tt0118583~0"
+    "uid": "tt0118583~0",
+    "customSort": "Alien 4"
   },
   {
     "id": "tt2316204",
@@ -3158,7 +3166,8 @@
         "name": "Michael Green"
       }
     ],
-    "uid": "tt2316204~0"
+    "uid": "tt2316204~0",
+    "customSort": "Alien 8"
   },
   {
     "id": "tt0103644",
@@ -3200,7 +3209,8 @@
         "name": "Vincent Ward"
       }
     ],
-    "uid": "tt0103644~0"
+    "uid": "tt0103644~0",
+    "customSort": "Alien 3"
   },
   {
     "id": "tt0090605",
@@ -3242,7 +3252,8 @@
         "name": "James Cameron"
       }
     ],
-    "uid": "tt0090605~0"
+    "uid": "tt0090605~0",
+    "customSort": "Alien 2"
   },
   {
     "id": "tt0090605",
@@ -3284,7 +3295,8 @@
         "name": "James Cameron"
       }
     ],
-    "uid": "tt0090605~1"
+    "uid": "tt0090605~1",
+    "customSort": "Alien 2"
   },
   {
     "id": "tt0775552",
@@ -6162,7 +6174,8 @@
         "name": "Ronald Shusett"
       }
     ],
-    "uid": "tt0370263~0"
+    "uid": "tt0370263~0",
+    "customSort": "Alien 5"
   },
   {
     "id": "tt0370263",
@@ -6204,7 +6217,8 @@
         "name": "Ronald Shusett"
       }
     ],
-    "uid": "tt0370263~1"
+    "uid": "tt0370263~1",
+    "customSort": "Alien 5"
   },
   {
     "id": "tt0758730",
@@ -6246,7 +6260,8 @@
         "name": "Dan O'Bannon"
       }
     ],
-    "uid": "tt0758730~0"
+    "uid": "tt0758730~0",
+    "customSort": "Alien 6"
   },
   {
     "id": "tt3890160",
@@ -60179,7 +60194,8 @@
         "name": "Ronald Shusett"
       }
     ],
-    "uid": "tt1446714~0"
+    "uid": "tt1446714~0",
+    "customSort": "Alien 7"
   },
   {
     "id": "tt0228750",
