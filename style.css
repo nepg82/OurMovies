@@ -101,6 +101,12 @@ a { color: inherit; }
   transition: color 0.15s, background 0.15s, border-color 0.15s;
 }
 
+#tabMovies {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 .control-row button.active {
   color: var(--bg);
   background: var(--accent);

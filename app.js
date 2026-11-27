@@ -84,19 +84,22 @@ function render() {
   else renderPeople(q);
 }
 
-function renderMovies(query) {
+function filteredMovies(query) {
   const mediaVal = filterMedia.value;
   const genreVal = filterGenre.value;
-
   // Search matches the real title, the custom sort field, and any pack contents.
-  const list = MOVIES.filter(m => {
+  return MOVIES.filter(m => {
     const matchesQuery = !query || (m.title || '').toLowerCase().includes(query)
       || (m.customSort || '').toLowerCase().includes(query)
       || (m.contents || []).some(t => t.toLowerCase().includes(query));
-	const matchesMedia = !mediaVal || m.medium === mediaVal;
+    const matchesMedia = !mediaVal || m.medium === mediaVal;
     const matchesGenre = !genreVal || m.genre === genreVal;
     return matchesQuery && matchesMedia && matchesGenre;
   });
+}
+
+function renderMovies(query) {
+  const list = filteredMovies(query);
 
   countPill.textContent = `${list.length} of ${MOVIES.length} in your collection`;
 
@@ -370,6 +373,47 @@ function jumpTo(letter) {
   const el = document.getElementById(`letter-${letter}`);
   if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
+
+
+/* --- Long-press "Movies" for a random pick --- */
+
+(function setupRandomPick() {
+  const btn = document.getElementById('tabMovies');
+  const row = btn.parentElement;
+  const HOLD_MS = 600;
+  let timer = null;
+  let fired = false;
+
+  function pickRandom() {
+    // In Movies mode, respect the current search and filters; otherwise use everything.
+    const pool = mode === 'movies' ? filteredMovies(searchInput.value.trim().toLowerCase()) : MOVIES;
+    if (!pool.length) return;
+    const m = pool[Math.floor(Math.random() * pool.length)];
+    if (navigator.vibrate) navigator.vibrate(25);
+    showDetail(m.uid);
+  }
+
+  const cancel = () => { clearTimeout(timer); timer = null; };
+
+  btn.addEventListener('pointerdown', () => {
+    fired = false;
+    cancel();
+    timer = setTimeout(() => { fired = true; timer = null; pickRandom(); }, HOLD_MS);
+  });
+  ['pointerup', 'pointerleave', 'pointercancel'].forEach(t => btn.addEventListener(t, cancel));
+
+  // Swallow the click that follows a long-press so it doesn't also switch modes.
+  row.addEventListener('click', (e) => {
+    if (fired && e.target.closest('#tabMovies')) {
+      e.stopPropagation();
+      e.preventDefault();
+      fired = false;
+    }
+  }, true);
+
+  // Stop the phone's long-press menu from popping up over the button.
+  btn.addEventListener('contextmenu', (e) => e.preventDefault());
+})();
 
 searchInput.addEventListener('input', render);
 
