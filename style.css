@@ -189,7 +189,7 @@ a { color: inherit; }
   padding: 18px 4px 8px;
   border-bottom: 1px solid var(--border);
   margin-bottom: 12px;
-  scroll-margin-top: 130px;
+  scroll-margin-top: calc(var(--topbar-h, 140px) - 10px); /* --topbar-h is measured in app.js */
 }
 
 .grid {
@@ -231,7 +231,7 @@ a { color: inherit; }
 }
 
 .card .meta .sort-note {
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   font-style: italic;
 }
 
@@ -785,7 +785,6 @@ body.sheet-open { overflow: hidden; }
     width: 100%;
     max-width: 460px;
   }
-  .letter-heading { scroll-margin-top: 110px; }
 }
 
 /* Laptop: title | controls | search | stamp, then count */
@@ -797,5 +796,4 @@ body.sheet-open { overflow: hidden; }
       "count count    count  count";
   }
   .control-row { max-width: none; justify-self: stretch; }
-  .letter-heading { scroll-margin-top: 80px; }
 }

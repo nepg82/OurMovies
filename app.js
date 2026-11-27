@@ -415,6 +415,16 @@ function jumpTo(letter) {
   btn.addEventListener('contextmenu', (e) => e.preventDefault());
 })();
 
+/* --- Keep jump-to-letter clear of the sticky top bar --- */
+
+(function trackTopbarHeight() {
+  const bar = document.querySelector('.topbar');
+  const set = () => document.documentElement.style.setProperty('--topbar-h', bar.offsetHeight + 'px');
+  set();
+  if ('ResizeObserver' in window) new ResizeObserver(set).observe(bar);
+  else window.addEventListener('resize', set);
+})();
+
 searchInput.addEventListener('input', render);
 
 if ('serviceWorker' in navigator) {
