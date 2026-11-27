@@ -17,14 +17,11 @@
     <h1>Our<span class="dot">Movies</span></h1>
     <a href="admin.html" id="syncStamp" class="sync-stamp"></a>
   </div>
-  <div class="mode-tabs">
+  <div class="control-row">
     <button id="tabMovies" class="active" onclick="setMode('movies')">Movies</button>
     <button id="tabPeople" onclick="setMode('people')">People</button>
-  </div>
-  <div class="filter-row">
     <select id="filterMedia" onchange="render()"></select>
     <select id="filterGenre" onchange="render()"></select>
-    <a href="admin.html" class="btn secondary filter-admin-link">Admin</a>
   </div>
   <div class="search-row">
     <input type="text" id="searchInput" placeholder="Search titles..." autocomplete="off">

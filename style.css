@@ -65,56 +65,53 @@ a { color: inherit; }
   color: var(--accent);
 }
 
-.mode-tabs {
+.control-row {
   display: flex;
   gap: 6px;
   margin-bottom: 10px;
 }
 
-.mode-tabs button {
-  flex: 1;
+.control-row > * {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.control-row button {
   background: var(--surface);
   border: 1px solid var(--border);
   color: var(--text-muted);
   font-family: 'Work Sans', sans-serif;
   font-size: 0.85rem;
   font-weight: 500;
-  padding: 8px 10px;
+  padding: 8px 6px;
   border-radius: var(--radius);
   cursor: pointer;
   transition: color 0.15s, background 0.15s, border-color 0.15s;
 }
 
-.mode-tabs button.active {
+.control-row button.active {
   color: var(--bg);
   background: var(--accent);
   border-color: var(--accent);
   font-weight: 600;
 }
 
-.filter-row {
-  display: flex;
-  gap: 6px;
-  margin-bottom: 10px;
-}
-
-.filter-row select {
-  flex: 1;
-  min-width: 0;
+.control-row select {
   appearance: none;
   -webkit-appearance: none;
-  background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238B8D9B'/%3E%3C/svg%3E") no-repeat right 10px center;
+  background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238B8D9B'/%3E%3C/svg%3E") no-repeat right 6px center;
   border: 1px solid var(--border);
   color: var(--text-muted);
   font-family: 'Work Sans', sans-serif;
   font-size: 0.82rem;
   font-weight: 500;
-  padding: 8px 22px 8px 10px;
+  padding: 8px 18px 8px 8px;
   border-radius: var(--radius);
   cursor: pointer;
+  text-overflow: ellipsis;
 }
 
-.filter-row select.filter-active {
+.control-row select.filter-active {
   color: var(--bg);
   background-color: var(--accent);
   border-color: var(--accent);
@@ -122,19 +119,9 @@ a { color: inherit; }
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%2312141C'/%3E%3C/svg%3E");
 }
 
-.filter-row select:disabled {
+.control-row select:disabled {
   opacity: 0.4;
   cursor: default;
-}
-
-.filter-row .filter-admin-link {
-  flex: 1;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 10px;
-  font-size: 0.82rem;
 }
 
 .search-row {
