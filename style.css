@@ -51,10 +51,21 @@ a { color: inherit; }
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
   padding: 14px 16px 12px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "title    stamp"
+    "controls controls"
+    "search   search"
+    "count    count";
+  column-gap: 12px;
+  row-gap: 10px;
 }
 
 .topbar h1 {
-  margin: 0 0 10px;
+  grid-area: title;
+  align-self: baseline;
+  margin: 0;
   font-size: 1.35rem;
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
@@ -66,9 +77,10 @@ a { color: inherit; }
 }
 
 .control-row {
+  grid-area: controls;
+  align-self: center;
   display: flex;
   gap: 6px;
-  margin-bottom: 10px;
 }
 
 .control-row > * {
@@ -125,6 +137,8 @@ a { color: inherit; }
 }
 
 .search-row {
+  grid-area: search;
+  align-self: center;
   position: relative;
 }
 
@@ -149,9 +163,10 @@ a { color: inherit; }
 }
 
 .count-pill {
+  grid-area: count;
   font-size: 0.75rem;
   color: var(--text-muted);
-  margin-top: 8px;
+  margin-top: -2px;
 }
 
 /* --- Wall of covers --- */
@@ -627,17 +642,11 @@ body.sheet-open { overflow: hidden; }
 
 /* --- Sync indicator & push panel --- */
 
-.topbar-top {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 10px;
-}
-
-.topbar-top h1 { margin: 0; }
+.topbar-top { display: contents; } /* title and stamp are placed by .topbar's grid */
 
 .sync-stamp {
+  grid-area: stamp;
+  align-self: baseline;
   font-size: 0.72rem;
   color: var(--text-muted);
   text-decoration: none;
@@ -751,3 +760,36 @@ body.sheet-open { overflow: hidden; }
 .o-size { color: var(--text-muted); flex-shrink: 0; }
 .orphan-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
 .details-body .orphan-actions .btn + .btn { margin-left: 0; }
+
+
+/* --- Responsive top bar --- */
+
+/* Tablet: title | controls | stamp, then search */
+@media (min-width: 640px) {
+  .topbar {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-areas:
+      "title  controls stamp"
+      "search search   search"
+      "count  count    count";
+  }
+  .topbar h1, .sync-stamp { align-self: center; }
+  .control-row {
+    justify-self: center;
+    width: 100%;
+    max-width: 460px;
+  }
+  .letter-heading { scroll-margin-top: 110px; }
+}
+
+/* Laptop: title | controls | search | stamp, then count */
+@media (min-width: 1000px) {
+  .topbar {
+    grid-template-columns: auto minmax(340px, 460px) minmax(0, 1fr) auto;
+    grid-template-areas:
+      "title controls search stamp"
+      "count count    count  count";
+  }
+  .control-row { max-width: none; justify-self: stretch; }
+  .letter-heading { scroll-margin-top: 80px; }
+}
