@@ -144,6 +144,25 @@
     </div>
   </details>
 
+  <details id="detReport">
+    <summary><span class="label-row">Missing genre / medium report</span></summary>
+    <div class="details-body">
+      <div class="field-hint" style="margin:12px 0 10px;">Lists every record whose genre and/or medium is blank (tick which to check), including changes you haven't pushed yet. Fix them from the shelf by opening a title and choosing Edit.</div>
+      <div style="margin-bottom:12px;">
+        <label style="display:inline-flex;align-items:center;gap:6px;margin-right:18px;font-size:0.9rem;cursor:pointer;">
+          <input type="checkbox" id="reportGenre" checked style="accent-color:var(--accent);"> Genre</label>
+        <label style="display:inline-flex;align-items:center;gap:6px;font-size:0.9rem;cursor:pointer;">
+          <input type="checkbox" id="reportMedium" checked style="accent-color:var(--accent);"> Medium</label>
+      </div>
+      <button class="btn" id="reportBtn" onclick="buildMissingReport()">Build report</button>
+      <div class="push-status" id="reportStatus"></div>
+      <div id="reportList"></div>
+      <div class="orphan-actions" id="reportActions" style="display:none;">
+        <button class="btn secondary" onclick="downloadMissingReportCsv()">Download CSV</button>
+      </div>
+    </div>
+  </details>
+
   <!--
     MOTHBALLED: "Backfill writer credits" card.
     One-time cleanup for records imported before the writer field existed. It's hidden because that
@@ -188,5 +207,6 @@
 <!-- Mothballed with the Backfill card above; uncomment to restore: <script src="migrate.js"></script> -->
 <script src="add.js"></script>
 <script src="orphans.js"></script>
+<script src="report.js"></script>
 </body>
 </html>
